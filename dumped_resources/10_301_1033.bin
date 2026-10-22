@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="dark">
+<title>Root | Scan report</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,@@ICON@@">
+<style>
+:root { color-scheme:dark; --text:#f5f5f5; --muted:#929292; --line:#252525; }
+* { box-sizing:border-box; }
+body { margin:0; background:#000; color:var(--text); font:14px/1.5 "Segoe UI",Arial,sans-serif; }
+button,input { font:inherit; } button { cursor:pointer; }
+button:focus-visible { outline:2px solid #fff; outline-offset:2px; }
+svg { width:20px; height:20px; fill:none; stroke:currentColor; stroke-width:1.5; stroke-linecap:round; stroke-linejoin:round; }
+#report-content { padding:0; }
+.app-shell { display:grid; grid-template-columns:220px minmax(0,1fr); height:100dvh; min-height:560px; overflow:hidden; background:#040404; }
+.sidebar { display:flex; flex-direction:column; min-width:0; border-right:1px solid var(--line); background:#060606; }
+.brand { display:flex; align-items:center; height:80px; flex-shrink:0; padding:0 22px; border-bottom:1px solid var(--line); }
+.brand strong { font-size:38px; line-height:1; font-weight:600; letter-spacing:-2px; }
+.side-caption { color:#777; font-size:11px; margin:22px 22px 10px; }
+.filters { overflow:auto; min-height:0; display:flex; flex-direction:column; gap:4px; padding:0 10px; }
+.filter { width:100%; display:flex; align-items:center; gap:10px; padding:12px; border:0; border-radius:8px; background:transparent; color:#a0a0a0; text-align:left; }
+.filter svg { width:18px; height:18px; flex-shrink:0; } .filter span { font-size:13px; }
+.filter b { margin-left:auto; font-size:11px; font-weight:500; font-variant-numeric:tabular-nums; }
+.filter:hover { background:#151515; color:#fff; } .filter.active { background:#f5f5f5; color:#080808; }
+.sidebar-footer { margin-top:auto; padding:20px 22px; color:#666; font-size:11px; border-top:1px solid var(--line); }
+.sidebar-footer span { display:block; margin-top:3px; } .sidebar-footer strong { color:#999; font-weight:400; }
+.main-pane { display:flex; flex-direction:column; min-width:0; min-height:0; }
+.topbar { display:flex; align-items:center; justify-content:space-between; gap:16px; min-height:80px; flex-shrink:0; padding:16px 26px; border-bottom:1px solid var(--line); }
+.eyebrow { color:#777; font-size:11px; margin-bottom:3px; }
+.topbar h1 { margin:0; font-size:18px; font-weight:500; letter-spacing:-.3px; }
+.topbar-meta { display:flex; align-items:center; gap:18px; color:#888; font-size:12px; }
+.local { color:#aaa; font-size:11px; border:1px solid var(--line); border-radius:999px; padding:8px 12px; white-space:nowrap; }
+main { display:flex; flex-direction:column; flex:1; min-height:0; padding:24px 26px 18px; }
+.content { display:flex; flex-direction:column; flex:1; min-height:0; min-width:0; }
+.section-heading { display:flex; align-items:center; gap:14px; margin-bottom:22px; }
+.section-heading > svg { width:34px; height:34px; color:#ddd; flex-shrink:0; }
+.section-heading h2 { margin:0 0 5px; font-size:27px; font-weight:500; letter-spacing:-.5px; }
+.section-total { margin-left:auto; color:#f5f5f5; font-size:40px; line-height:1; font-weight:500; font-variant-numeric:tabular-nums; }
+.section-heading .category-help { margin:0; max-width:720px; }
+.findings-workspace { display:grid; grid-template-columns:minmax(0,1fr) 240px; gap:30px; flex:1; min-height:0; }
+.findings-workspace.single { grid-template-columns:1fr; }
+.reference-row,.activity-row { padding:20px 18px; border-bottom:1px solid #1d1d1d; }
+.reference-row:nth-child(even),.activity-row:nth-child(even) { background:#070707; }
+.reference-heading,.activity-heading { display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
+.reference-heading h3,.activity-heading h3 { margin:0; font-size:15px; font-weight:500; overflow-wrap:anywhere; }
+.reference-source,.activity-status { margin-left:auto; color:#999; font-size:11px; }
+.reference-detail,.activity-detail,.activity-count { margin:8px 0 0; color:#999; font-size:12px; overflow-wrap:anywhere; }
+.activity-count { color:#777; }
+.filter[data-category="minecraft"] { margin-top:12px; }
+.overview { padding-left:25px; border-left:1px solid var(--line); min-width:0; }
+.overview h3 { color:#ddd; font-size:13px; font-weight:500; margin:0 0 20px; }
+.overview-total { display:flex; align-items:baseline; gap:9px; margin-bottom:24px; }
+.overview-total strong { font-size:36px; font-weight:500; line-height:1; }
+.overview-total span,.overview-caption { color:#777; font-size:11px; }
+.breakdown-row { margin-bottom:18px; }
+.breakdown-label { display:flex; justify-content:space-between; gap:10px; color:#999; font-size:12px; margin-bottom:7px; }
+.breakdown-label b { color:#ddd; font-weight:400; font-variant-numeric:tabular-nums; }
+.breakdown-track { height:3px; background:#191919; border-radius:2px; overflow:hidden; }
+.breakdown-fill { height:100%; background:#d3d3d3; border-radius:2px; }
+.toolbar { display:flex; align-items:center; justify-content:space-between; gap:16px; margin-bottom:12px; }
+.toolbar h2 { color:#999; font-size:12px; font-weight:400; margin:0; }
+.search { width:260px; display:flex; gap:10px; align-items:center; border:1px solid #303030; border-radius:8px; padding:9px 12px; color:#888; }
+.search:focus-within { border-color:#aaa; } .search svg { width:16px; height:16px; flex-shrink:0; }
+.search input { min-width:0; width:100%; border:0; outline:0; background:transparent; color:#fff; font-size:12px; }
+.category-help { font-size:12px; color:#888; margin:0 0 16px; }
+.list { flex:1; min-height:0; overflow:auto; background:transparent; scrollbar-color:#333 transparent; scrollbar-width:thin; }
+.finding { border-bottom:1px solid #1d1d1d; }
+.finding-heading { margin:0; }
+.finding-toggle { width:100%; display:flex; align-items:center; justify-content:space-between; gap:14px; padding:20px 18px; border:0; background:transparent; color:inherit; text-align:left; }
+.finding-toggle:hover { background:#101010; }
+.finding-toggle > svg { width:16px; height:16px; color:#777; flex-shrink:0; transition:transform .22s ease; }
+.finding-toggle[aria-expanded="true"] > svg { transform:rotate(90deg); }
+.finding-description[hidden] { display:none; }
+.finding-details { padding:0 18px 20px; }
+.finding:nth-child(even) { background:#070707; } .finding:last-child { border-bottom:0; }
+.finding-title { margin:0; font-size:15px; font-weight:500; color:#e8e8e8; overflow-wrap:anywhere; }
+.finding-explanation { color:#aaa; font-size:13px; line-height:1.75; margin:0; max-width:78ch; }
+.finding-next-step { color:#777; font-size:12px; line-height:1.7; margin:7px 0 0; max-width:84ch; }
+.empty { padding:50px 24px; text-align:center; color:#888; }
+.empty svg { width:28px; height:28px; } .empty h3 { color:#ddd; font-size:17px; font-weight:500; margin:14px 0 8px; } .empty p { font-size:13px; }
+.note { display:flex; align-items:flex-start; gap:9px; color:#777; font-size:11px; line-height:1.7; margin-top:14px; } .note svg { width:15px; height:15px; flex-shrink:0; }
+.demo { display:none; flex-shrink:0; font-size:11px; color:#aaa; background:#101010; border:1px solid #303030; border-radius:8px; padding:9px 12px; margin-bottom:18px; } .demo.visible { display:block; }
+@media (max-width:1000px) { .app-shell { grid-template-columns:195px minmax(0,1fr); } .topbar { padding:16px 20px; } main { padding:20px; } .filter { padding:11px 10px; gap:8px; } .findings-workspace { grid-template-columns:1fr; } .overview { display:none; } }
+@media (max-width:720px) { #report-content { padding:0; } .app-shell { grid-template-columns:64px minmax(0,1fr); height:100dvh; } .brand { padding:0; justify-content:center; } .brand strong { font-size:24px; letter-spacing:-1.4px; } .side-caption,.sidebar-footer,.filter span,.filter b { display:none; } .filters { padding:14px 8px; gap:8px; } .filter { padding:12px 0; justify-content:center; } .topbar { padding:14px 16px; gap:10px; } .topbar h1 { font-size:16px; } .topbar-meta { font-size:10px; max-width:100px; } .local { display:none; } main { padding:16px 14px 12px; } .toolbar { flex-wrap:wrap; gap:10px; } .search { width:100%; } .category-help { font-size:11px; } .finding-toggle { padding:15px 14px; } .finding-details { padding:0 14px 16px; } .finding-title { font-size:13px; } .section-heading { margin-bottom:18px; gap:10px; } .section-heading h2 { font-size:21px; } .section-heading > svg { width:26px; height:26px; } .section-total { font-size:32px; } .note { font-size:10px; } }
+@media print { #report-content { padding:0; } .app-shell { display:block; height:auto; min-height:0; border:0; } .sidebar,.search,.local { display:none; } .main-pane,main,.content { display:block; } .topbar { padding:12px 0; } main { padding:16px 0; } body,.list,.finding { background:#fff; color:#111; } .list { height:auto; overflow:visible; } .finding-title { color:#111; } }
+
+body.report-loading { overflow:hidden; }
+.report-loader { position:fixed; inset:0; z-index:1000; display:grid; place-items:center; background:#000; }
+.loader-tree { position:relative; width:clamp(160px,32vw,230px); aspect-ratio:1; opacity:0; }
+.loader-tree canvas { display:block; width:100%; height:100%; }
+.portal-mask { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; }
+@media print { .report-loader { display:none !important; } #report-content[hidden] { display:block !important; } }
+</style></head><body class="report-loading">
+<div id="report-loader" class="report-loader" role="status" aria-label="Loading scan results"><div class="loader-tree" aria-hidden="true"><canvas id="tree-fill" width="512" height="512"></canvas><img id="tree-frames" src="data:image/webp;base64,@@TREE_FRAMES@@" hidden alt=""></div></div>
+<noscript><style>#report-loader { display:none; } body { overflow:auto; }</style><p>Enable JavaScript to view the scan results.</p></noscript>
+<svg style="display:none" aria-hidden="true"><defs>
+<symbol id="box" viewBox="0 0 24 24"><path d="M12 3 L12 21"/><path d="M12 10 L7 6 L4 6"/><path d="M12 10 L17 6 L20 6"/><path d="M12 14 L6 18 L6 21"/><path d="M12 14 L18 18 L18 21"/></symbol>
+<symbol id="grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></symbol>
+<symbol id="shield" viewBox="0 0 24 24"><path d="M9 3H6a3 3 0 0 0-3 3v3m12-6h3a3 3 0 0 1 3 3v3M3 15v3a3 3 0 0 0 3 3h3m12-6v3a3 3 0 0 1-3 3h-3"/><path d="m8 12 3 3 5-6"/></symbol>
+<symbol id="system" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="3"/><path d="M8 21h8m-4-4v4M7 10h3l2-3 2 6 2-3h2"/></symbol>
+<symbol id="bypass" viewBox="0 0 24 24"><path d="M12 3 4 6v5c0 5 8 10 8 10s8-5 8-10V6Z"/><path d="m8 12 8-4m-8 8 8-4"/></symbol>
+<symbol id="warning" viewBox="0 0 24 24"><path d="m10.3 4.9-7.5 13a2 2 0 0 0 1.7 3h15a2 2 0 0 0 1.7-3l-7.5-13a2 2 0 0 0-3.4 0Z"/><path d="M12 9v4m0 4h.01"/></symbol>
+<symbol id="eye" viewBox="0 0 24 24"><path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12Z"/><circle cx="12" cy="12" r="2.7"/></symbol>
+<symbol id="icon-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.2 15.2 5.3 5.3"/></symbol>
+<symbol id="arrow" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol>
+<symbol id="users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 21v-3a6 6 0 0 1 12 0v3m1-16a3 3 0 0 1 0 6m2 4a5 5 0 0 1 3 4v2"/></symbol>
+<symbol id="logs" viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8m-8 4h8m-8 4h5"/></symbol>
+<symbol id="check" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="9"/><path d="m8 12 2.7 2.7L16 9"/></symbol>
+</defs></svg>
+<div id="report-content" hidden inert>
+<div class="app-shell">
+<aside class="sidebar"><div class="brand"><strong>root</strong></div><p class="side-caption" id="sideCaption"></p><nav class="filters" id="filters" aria-label="Finding categories"></nav><footer class="sidebar-footer">Root Scanner<span>created by <strong>tosloi</strong></span></footer></aside>
+<div class="main-pane"><header class="topbar"><div><div class="eyebrow">Scan results</div><h1 id="heading">All findings</h1></div><div class="topbar-meta"><span id="count" aria-live="polite"></span><span class="local">Local report</span></div></header>
+<main><div class="demo" id="demo">Design preview using sample findings.</div><section class="content" aria-label="Scan findings"><div class="section-heading"><svg id="categoryIcon" aria-hidden="true"><use href="#grid"/></svg><div><h2 id="sectionTitle">All findings</h2><p id="categoryHelp" class="category-help"></p></div><span class="section-total" id="sectionTotal"></span></div><div class="toolbar"><h2 id="listLabel">Detection names</h2><label class="search"><svg aria-hidden="true"><use href="#icon-search"/></svg><input id="search" type="search" placeholder="Search detection names..." aria-label="Search detection names"></label></div><div class="findings-workspace"><div class="list" id="list"></div><aside class="overview" aria-label="Findings by category"><h3>Scan overview</h3><div class="overview-total"><strong id="overviewTotal"></strong><span>findings</span></div><div id="breakdown"></div><p class="overview-caption">Across this scan</p></aside></div><div class="note"><svg aria-hidden="true"><use href="#shield"/></svg><span>Findings are indicators for review. A signature match alone does not confirm cheating.</span></div></section></main></div>
+</div></div>
+<script id="report-data" type="application/json">@@DATA@@</script>
+<script>
+(()=>{'use strict';const data=JSON.parse(document.getElementById('report-data').textContent),rows=data.findings;
+const categories=[['all','All findings','grid'],['detect','Detections','shield'],['system','System integrity','system'],['bypass','Bypass indicators','bypass'],['warning','Warnings','warning'],['suspicious','Suspicious','eye'],['minecraft','Minecraft accounts','users'],['discord','Discord accounts','users'],['logs','Logs','logs']];
+const names=Object.fromEntries(categories.map(c=>[c[0],c[1]])),expanded=new Set();let selected='all';
+const el=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n};
+const icon=name=>{const s=document.createElementNS('http://www.w3.org/2000/svg','svg'),u=document.createElementNS(s.namespaceURI,'use');u.setAttribute('href','#'+(name==='search'?'icon-search':name));s.append(u);s.setAttribute('aria-hidden','true');return s};
+document.getElementById('demo').classList.toggle('visible',!!data.preview);
+document.getElementById('sideCaption').textContent=rows.length+' finding'+(rows.length===1?'':'s');
+const accountPages={minecraft:data.minecraft_accounts||[],discord:data.discord_accounts||[],logs:data.logs||[]};
+const totalFor=key=>key==='all'?rows.length:accountPages[key]?.length??rows.filter(r=>r.category===key).length;
+const nav=document.getElementById('filters');categories.forEach(([key,label,glyph])=>{const b=el('button','filter');b.type='button';b.dataset.category=key;b.title=label;b.setAttribute('aria-label',label);b.append(icon(glyph),el('span','',label),el('b','',totalFor(key)));b.onclick=()=>{selected=key;render()};nav.append(b)});
+document.getElementById('overviewTotal').textContent=rows.length;
+const breakdown=document.getElementById('breakdown');
+for(const [key,label] of categories.slice(1,6)){
+ const count=rows.filter(r=>r.category===key).length,row=el('div','breakdown-row'),heading=el('div','breakdown-label'),track=el('div','breakdown-track'),fill=el('div','breakdown-fill');
+ heading.append(el('span','',label),el('b','',count));fill.style.width=(rows.length?count/rows.length*100:0)+'%';track.setAttribute('aria-hidden','true');track.append(fill);row.append(heading,track);breakdown.append(row);
+}
+const explanations={all:'All recorded detection names. These are not a count of confirmed cheats.',detect:'Detection rules matched. A match alone does not confirm cheating.',system:'Observations about Windows settings or system state.',bypass:'Observations that may affect a scan. They do not establish an intentional bypass.',warning:'Warnings can come from legitimate software.',suspicious:'Unusual observations that need review; these are not confirmed cheats.',minecraft:'Public names found in game memory or launcher history. These are references, not verified account ownership or proof of cheating.',discord:'Public user references found in Discord caches. These may include contacts and old entries, not just signed-in accounts.',logs:'Activity and coverage recorded during this scan. Unavailable history is unknown, not proof of a bypass.'};
+function render(){
+ nav.querySelectorAll('button').forEach(b=>{const active=b.dataset.category===selected;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active))});
+ document.getElementById('heading').textContent=names[selected];document.getElementById('sectionTitle').textContent=names[selected];document.getElementById('categoryHelp').textContent=explanations[selected];document.getElementById('categoryIcon').replaceChildren(...icon(categories.find(c=>c[0]===selected)[2]).childNodes);
+ const auxiliary=Object.hasOwn(accountPages,selected);
+ document.querySelector('.overview').hidden=auxiliary;document.querySelector('.findings-workspace').classList.toggle('single',auxiliary);
+ document.getElementById('listLabel').textContent=auxiliary?(selected==='logs'?'Scan activity':'Public references'):'Detection names';
+ const searchInput=document.getElementById('search');searchInput.placeholder=auxiliary?(selected==='logs'?'Search logs...':'Search names or IDs...'):'Search detection names...';searchInput.setAttribute('aria-label',searchInput.placeholder);
+ document.querySelector('.note span').textContent=auxiliary?'References and history provide context. They do not establish account ownership or cheating.':'Findings are indicators for review. A signature match alone does not confirm cheating.';
+ if(auxiliary){renderReferences(selected,searchInput.value.trim().toLowerCase());return}
+ const query=document.getElementById('search').value.trim().toLowerCase();
+ const filtered=rows.filter(r=>(selected==='all'||r.category===selected)&&r.message.toLowerCase().includes(query));
+ document.getElementById('count').textContent=filtered.length+' of '+rows.length+' findings shown';document.getElementById('sectionTotal').textContent=filtered.length;
+ const list=document.getElementById('list');list.replaceChildren();
+ if(!filtered.length){const empty=el('div','empty');empty.append(icon(query?'search':'check'),el('h3','',query?'No matching findings':rows.length?'No findings in this category':'No findings recorded'),el('p','',query?'Try another detection name or category.':rows.length?'Choose another category to see its findings.':'No rules produced findings. This does not guarantee that every area was scanned or that no injection is present.'));list.append(empty);return}
+ filtered.forEach((r,index)=>{
+  const item=el('article','finding'),heading=el('h3','finding-heading'),toggle=el('button','finding-toggle'),description=el('div','finding-description'),inner=el('div','finding-details'),key=r.category+'\0'+r.message;
+  toggle.type='button';toggle.append(el('span','finding-title',r.message),icon('arrow'));description.id='finding-info-'+index;toggle.setAttribute('aria-controls',description.id);
+  const apply=open=>{toggle.setAttribute('aria-expanded',String(open));toggle.title=open?'Hide description':'Show description'};
+  apply(expanded.has(key));description.hidden=!expanded.has(key);
+  inner.append(el('p','finding-explanation',r.explanation),el('p','finding-next-step','Next step: '+r.next_step));description.append(inner);
+  toggle.addEventListener('click',()=>{
+   const open=toggle.getAttribute('aria-expanded')!=='true',height=description.hidden?0:description.getBoundingClientRect().height,opacity=description.hidden?0:Number(getComputedStyle(description).opacity);
+   description.rootAnimation?.cancel();description.hidden=false;apply(open);if(open)expanded.add(key);else expanded.delete(key);
+   const animation=description.animate?.([{height:height+'px',opacity},{height:(open?description.scrollHeight:0)+'px',opacity:open?1:0}],{duration:240,easing:'cubic-bezier(.22,.8,.2,1)'});
+   if(!animation){description.hidden=!open;return}
+   description.rootAnimation=animation;description.style.overflow='hidden';
+   animation.finished.then(()=>{if(description.rootAnimation!==animation)return;description.hidden=!open;description.style.removeProperty('overflow');description.rootAnimation=undefined},()=>{});
+  });
+  heading.append(toggle);item.append(heading,description);list.append(item);
+ });
+}
+function renderReferences(page,query){
+ const entries=accountPages[page],filtered=entries.filter(r=>(page==='logs'?[r.title,r.description,r.status]:[r.name,r.id]).filter(Boolean).join(' ').toLowerCase().includes(query));
+ const list=document.getElementById('list');list.replaceChildren();document.getElementById('sectionTotal').textContent=filtered.length;
+ document.getElementById('count').textContent=filtered.length+' of '+entries.length+(page==='logs'?' log entries shown':' references shown');
+ if(!filtered.length){const empty=el('div','empty');empty.append(icon(query?'search':'logs'),el('h3','',query?'No matching entries':page==='logs'?'No activity logs available':'No public references recorded'),el('p','',query?'Try another name, ID or phrase.':page==='logs'?'This report contains no public activity log entries.':'References may be absent, inaccessible or outside the scanned data. Check Logs for coverage.'));list.append(empty);return}
+ for(const r of filtered){
+  const item=el('article',page==='logs'?'activity-row':'reference-row'),heading=el('div',page==='logs'?'activity-heading':'reference-heading');
+  if(page==='logs'){
+   const statuses={observed:'Available',limited:'Limited',unavailable:'Unavailable',not_checked:'Not checked'};
+   heading.append(el('h3','',r.title),el('span','activity-status',statuses[r.status]||'Unknown'));item.append(heading,el('p','activity-detail',r.description));
+   if(r.status==='observed'||r.status==='limited')item.append(el('p','activity-count',r.count+' '+r.unit));
+  }else{
+   const sources={minecraft_memory:'Minecraft memory reference',lunar_cache:'Lunar launcher cache',discord_cache:'Discord memory cache'};
+   heading.append(el('h3','',r.name||(page==='discord'?'Username unavailable':'Unnamed reference')),el('span','reference-source',sources[r.source]||'Cached reference'));item.append(heading);
+   if(page==='discord')item.append(el('p','reference-detail','User ID: '+r.id));
+  }
+  list.append(item);
+ }
+}
+document.getElementById('search').addEventListener('input',render);render();
+const loader=document.getElementById('report-loader'),content=document.getElementById('report-content'),tree=document.getElementById('tree-fill');
+let revealed=false,guard,frame;
+function finishReveal(){
+ clearTimeout(guard);cancelAnimationFrame(frame);
+ content.hidden=false;content.removeAttribute('inert');content.style.removeProperty('opacity');content.style.removeProperty('transform');
+ document.body.classList.remove('report-loading');loader.remove();
+}
+function reveal(animate=false){
+ if(revealed)return;revealed=true;clearTimeout(guard);cancelAnimationFrame(frame);
+ if(!animate){finishReveal();return}
+ const silhouette=loader.querySelector('.loader-tree'),bounds=tree.getBoundingClientRect();
+ const portal=document.createElement('canvas'),mask=portal.getContext('2d');
+ if(!mask){finishReveal();return}
+ portal.className='portal-mask';portal.setAttribute('aria-hidden','true');loader.append(portal);
+ const gray=document.createElement('canvas');gray.width=gray.height=512;
+ const grayContext=gray.getContext('2d');
+ if(!grayContext){finishReveal();return}
+ grayContext.drawImage(tree,0,0);
+ const pixels=grayContext.getImageData(0,0,512,512);
+ for(let i=0;i<pixels.data.length;i+=4){const v=Math.round(.2126*pixels.data[i]+.7152*pixels.data[i+1]+.0722*pixels.data[i+2]);pixels.data[i]=pixels.data[i+1]=pixels.data[i+2]=v}
+ grayContext.putImageData(pixels,0,0);
+ // Render the results underneath an opaque canvas. Only the tree-shaped cutout
+ // reveals them; the surrounding black remains solid throughout the zoom.
+ content.hidden=false;loader.style.background='transparent';loader.style.pointerEvents='none';
+ silhouette.style.opacity='0';
+ let elapsed=0,last;
+ const clamp=n=>Math.max(0,Math.min(1,n)),ease=n=>n*n*(3-2*n);
+ function zoom(now){
+  if(last!==undefined)elapsed+=Math.min(64,Math.max(0,now-last));last=now;
+  const w=window.innerWidth,h=window.innerHeight,dpr=Math.min(window.devicePixelRatio||1,2);
+  if(portal.width!==Math.ceil(w*dpr)||portal.height!==Math.ceil(h*dpr)){portal.width=Math.ceil(w*dpr);portal.height=Math.ceil(h*dpr)}
+  mask.setTransform(dpr,0,0,dpr,0,0);mask.globalCompositeOperation='source-over';mask.globalAlpha=1;
+  mask.clearRect(0,0,w,h);mask.fillStyle='#000';mask.fillRect(0,0,w,h);
+  const grayProgress=ease(clamp(elapsed/320)),open=ease(clamp((elapsed-320)/240)),travel=ease(clamp((elapsed-400)/550));
+  // The center of this original tree has an opaque 26px-wide trunk. Zoom far
+  // enough for that interior alone to cover the viewport, including corners.
+  const size=bounds.width||200,end=Math.max(1,Math.hypot(w,h)*512/(24*size)),scale=Math.exp(Math.log(end)*travel);
+  const side=size*scale,x=w/2-side/2,y=h/2-side/2;
+  mask.globalAlpha=1-grayProgress;mask.drawImage(tree,x,y,side,side);
+  mask.globalAlpha=grayProgress;mask.drawImage(gray,x,y,side,side);
+  mask.globalCompositeOperation='destination-out';mask.globalAlpha=open;mask.drawImage(tree,x,y,side,side);
+  mask.globalAlpha=1;mask.globalCompositeOperation='source-over';
+  loader.dataset.phase=elapsed<320?'gray':travel<1?'portal':'complete';
+  loader.dataset.zoom=String(scale);loader.dataset.open=String(open);
+  if(elapsed>=950){finishReveal();return}frame=requestAnimationFrame(zoom);
+ }
+ frame=requestAnimationFrame(zoom);guard=setTimeout(finishReveal,4500);
+}
+async function intro(){
+ try{await (document.getElementById('tree-frames').decode?.()||Promise.resolve())}catch{reveal();return}
+ if(revealed||!loader.isConnected)return;
+ clearTimeout(guard);
+ const silhouette=loader.querySelector('.loader-tree'),atlas=document.getElementById('tree-frames'),context=tree.getContext('2d',{willReadFrequently:true});
+ if(!context){reveal();return}
+ let elapsed=0,last,lastFrame=-1;
+ const clamp=n=>Math.max(0,Math.min(1,n));
+ function draw(now){
+  if(revealed)return;
+  // Start on the first painted frame and cap long gaps so a slow machine
+  // still draws intermediate fill states instead of jumping straight to full.
+  if(last!==undefined)elapsed+=Math.min(64,Math.max(0,now-last));
+  last=now;
+  silhouette.style.opacity=String(clamp((elapsed-160)/180));
+  // These are the original GIF's first 61 composited frames, at its 50ms
+  // cadence. Frame 60 is fully colored; do not play its fade-back-to-gray tail.
+  const index=Math.min(60,Math.floor(Math.max(0,elapsed-200)/50));
+  if(index!==lastFrame){
+   context.clearRect(0,0,512,512);
+   context.drawImage(atlas,(index%8)*512,Math.floor(index/8)*512,512,512,0,0,512,512);
+   // The source GIF contains near-black texture rather than transparency.
+   // Clear only those dark background pixels; keep the tree's original colors.
+   const pixels=context.getImageData(0,0,512,512),rgba=pixels.data;
+   for(let i=0;i<rgba.length;i+=4)if(Math.max(rgba[i],rgba[i+1],rgba[i+2])<=12)rgba[i+3]=0;
+   context.putImageData(pixels,0,0);
+   tree.dataset.frame=String(index);lastFrame=index;
+  }
+  if(index===60){clearTimeout(guard);guard=setTimeout(()=>reveal(true),200);return}
+  frame=requestAnimationFrame(draw);
+ }
+ frame=requestAnimationFrame(draw);
+ // Keep the page accessible if frame delivery is unavailable altogether.
+ guard=setTimeout(reveal,12000);
+}
+// A failed/stalled image decoder must never leave an unusable black page.
+guard=setTimeout(reveal,6000);
+intro().then(()=>{});
+})();
+</script></body></html>

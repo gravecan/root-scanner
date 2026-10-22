@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; font-src data:; connect-src 'none'; base-uri 'none'; form-action 'none'" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" content="Root Scanner for Minecraft Java." />
+    <title>Root</title>
+    <!-- Local-only source for the Root scanner animation. -->
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./native.css" />
+  </head>
+  <body>
+    <main class="stage" id="stage">
+      <div class="socials" id="socials" data-open="false">
+        <div class="socials-surface" aria-hidden="true"></div>
+        <button class="socials-toggle" id="socials-toggle" type="button" aria-label="Socials" aria-expanded="false" aria-controls="socials-links">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="12" r="2.5"/><circle cx="17.5" cy="5" r="2.5"/><circle cx="17.5" cy="19" r="2.5"/><path d="m8.2 10.6 7.1-4.2M8.2 13.4l7.1 4.2"/></svg>
+        </button>
+        <nav class="socials-links" id="socials-links" aria-label="Social links" inert>
+          <a class="social-link" href="https://discord.gg/rootscanner" data-native-action="discord" target="_blank" rel="noopener noreferrer" aria-label="Discord" title="Discord">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5a19 19 0 0 0-4 1.4C2.6 9.7 2 12.6 2.3 16a16 16 0 0 0 4.8 2.4l1-1.7m7.9-11.2a19 19 0 0 1 4 1.4c1.4 2.8 2 5.7 1.7 9.1a16 16 0 0 1-4.8 2.4l-1-1.7M8 7.3a16 16 0 0 1 8 0M6.5 15.7a12 12 0 0 0 11 0"/><ellipse cx="8.5" cy="12" rx="1" ry="1.4"/><ellipse cx="15.5" cy="12" rx="1" ry="1.4"/></svg>
+          </a>
+          <a class="social-link" href="https://github.com/tosloi/Root" data-native-action="website" data-website target="_blank" rel="noopener noreferrer" aria-label="Website" title="Website">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18"/></svg>
+          </a>
+        </nav>
+      </div>
+      <div class="socials languages" id="languages" data-open="false">
+        <div class="socials-surface" aria-hidden="true"></div>
+        <button class="socials-toggle" type="button" aria-label="Language: English" aria-expanded="false" aria-controls="language-options">
+          <span class="flag-window" aria-hidden="true"><span class="flag-track"><span class="flag-slide"><span class="language-flag flag-en"></span></span><span class="flag-slide"><span class="language-flag flag-ru"></span></span><span class="flag-slide"><span class="language-flag flag-lt"></span></span></span></span>
+        </button>
+        <div class="socials-links" id="language-options" inert>
+          <button class="social-link language-option" type="button" data-language="en" aria-label="English" aria-pressed="true" title="English"><span class="language-flag flag-en" aria-hidden="true"></span></button>
+          <button class="social-link language-option" type="button" data-language="ru" aria-label="Русский" aria-pressed="false" title="Русский"><span class="language-flag flag-ru" aria-hidden="true"></span></button>
+          <button class="social-link language-option" type="button" data-language="lt" aria-label="Lietuvių" aria-pressed="false" title="Lietuvių"><span class="language-flag flag-lt" aria-hidden="true"></span></button>
+        </div>
+      </div>
+      <div class="scan-island" id="scan-island" aria-hidden="true">
+        <svg class="island-shape" id="island-shape" viewBox="0 0 24 1" preserveAspectRatio="none" aria-hidden="true">
+          <path id="island-path" fill="#fff" d="M0 0 H24 Z" />
+        </svg>
+      </div>
+      <div class="island-copy-layer" id="island-copy-layer" data-message="idle" aria-hidden="true">
+        <span class="island-copy island-search" id="island-search">Searching for javaw.exe</span>
+        <span class="island-copy island-found" id="island-found">Minecraft found (PID 00000)</span>
+      </div>
+      <span class="sr-only" id="scan-announcement" role="status" aria-live="polite"></span>
+      <div class="wordmark" aria-label="root"><span id="r-visual" class="letter">r</span><span id="o-left" class="letter">o</span><span id="o-right" class="letter">o</span><span id="t-visual" class="letter">t</span><span id="baseline" class="baseline-marker" aria-hidden="true"></span></div>
+      <svg class="mark" viewBox="0 0 640 340" aria-hidden="true">
+        <g id="letter-spin">
+          <path id="r-morph" class="morph" />
+          <path id="t-morph" class="morph" />
+        </g>
+        <g id="o-spin">
+          <path id="o-left-morph" class="ring-morph" />
+          <path id="o-right-morph" class="ring-morph" />
+        </g>
+      </svg>
+
+      <div class="progress-tile" aria-hidden="true">
+        <span class="progress-digits">
+          <span class="digit-slot" data-place="100"><span class="digit-roll"><span class="digit-face"></span><span class="digit-face"></span></span></span>
+          <span class="digit-slot" data-place="10"><span class="digit-roll"><span class="digit-face"></span><span class="digit-face"></span></span></span>
+          <span class="digit-slot is-visible" data-place="1"><span class="digit-roll"><span class="digit-face">0</span><span class="digit-face">0</span></span></span>
+        </span>
+      </div>
+
+      <button class="start-button" id="start" type="button" aria-label="scan"></button>
+      <span class="start-label" aria-hidden="true">scan</span>
+      <button class="results-button" id="show-results" type="button" disabled><span>Show results</span></button>
+
+    </main>
+    <dialog class="results-dialog" id="results-dialog" aria-labelledby="results-title">
+      <button class="results-close" type="button" aria-label="Close results">×</button>
+      <p class="results-eyebrow" id="results-kind">Demo scan</p>
+      <h2 id="results-title">Scan results</h2>
+      <p id="results-process"></p>
+      <p class="results-note" id="results-note">No detection data is available in this preview.</p>
+    </dialog>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

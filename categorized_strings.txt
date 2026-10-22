@@ -1,0 +1,1311 @@
+
+=================== MODULES (0) ===================
+
+=================== CHEATS_DETECTED (453) ===================
+0x00048F14: doomsdayH+
+0x000749BB: /agent/cH+
+0x00088A16: .attach_A
+0x00194160: Minecraft found (PID
+0x00194DE0: net.minecraft
+0x00194DF0: net/minecraft
+0x00194E00: .minecraft
+0x00194E20: minecraft
+0x00194E58: Minecraft / PID
+0x00195070: javainjector/Injector
+0x00195088: javainjector/PeMapper
+0x001950F0: GameRendererGhostHandMixin
+0x00195248: drip/client
+0x00196738: desirable-cc.mixins.json
+0x00196928: nativeinjector.cs
+0x00197140: AimAssist
+0x001972EC: Wtap
+0x00197368: LagReach
+0x00197400: AutoClicker
+0x0019AEC8: vapeclient
+0x0019CB30: ReachAdjust
+0x0019CBA0: AimAssistHandler
+0x0019CD10: Runtime JAR handle discovery reached a limit; coverage incomplete.
+0x0019CF88: Mod namespace/entry-class text observed:
+0x0019CFB8: Doomsday-related memory marker (review)
+0x0019CFE0: The selected process contains the text 'doomsdayclient' at the recorded address. This is a client-related text observation, not a verified loaded class, archive identity or proof of successful injection. A reference, configuration or retained text can also contain this marker; corroboration is required.
+0x0019DAD0: A JDWP library or legacy JDWP startup option was referenced. Debugging can inspect or change the JVM; ordinary development and diagnostics also use it.
+0x0019DB68: Java debugging agent requested (review)
+0x0019DB90: The last recognized application-class verification selector in this source requests disabling it. Diagnostic selectors may require unlocking and vary by JVM version. This is a declaration, not a runtime flag read.
+0x0019DDF0: contains -Xdebug without a recognized JDWP agent. This alone does not establish remote debugging.
+0x0019DE60: ). Last recognized selector within this source only; cross-source precedence and effective runtime state are unverified. Defaults vary by JVM. Permission or warning configuration does not prove an agent was loaded.
+0x0019DF60: , self-attach=
+0x0019DF70: , dynamic agents=
+0x0019DF88: declares attach policy (attach=
+0x0019E2E8: Oversized Java agent reference skipped.
+0x0019E380: Java startup-agent reference recovered from
+0x0019E690: Java argument-file quoting invalid or token limit reached; skipped.
+0x0019E930: Context only: selected process JAVA_OPTS contains agent-style references. This is a wrapper convention, not an automatically consumed JVM option variable; launcher use is unknown and these are not attributed as active startup agents. Values/options omitted.
+0x0019EB5C: mixin
+0x0019EB78: Connecting to Minecraft...
+0x0019EE10: aimassist
+0x0019EE20: autoclicker
+0x0019EE2C: reach
+0x0019EE68: fastplace
+0x0019EE78: killaura
+0x0019EED8: Native loader matching observed Doomsday injection (review)
+0x0019EF20: Private executable memory matches 256 native-code bytes and 64 allocation-prefix bytes at the same relative offset observed during the controlled Doomsday injection test. Both byte sequences were reread twice and page identity/protection rechecked. This is native-code evidence, independent of client-name strings. The controlled test observed a new thread starting at this code address; this scan alone does not establish a current thread, external writer or general coverage of other versions. Shared loader code may occur in other software; review required.
+0x0019F328: injector
+0x0019F810: Minecraft exited before the scan completed.
+0x0019FD3C: JNIC
+0x0019FD48: jnic.obf
+0x0019FD58: jnic-obfuscator
+0x001A04B0: reachable method flow falls off code extent
+0x001A04E0: com/vora/agent/Bridge
+0x001A0518: com/vora/agent/c
+0x001A0590: com/vora/agent/TraceScrubber
+0x001A09C0: com/sun/tools/attach/VirtualMachine
+0x001A09E4: attach
+0x001A09F0: (Ljava/lang/String;)Lcom/sun/tools/attach/VirtualMachine;
+0x001A0A30: (Lcom/sun/tools/attach/VirtualMachineDescriptor;)Lcom/sun/tools/attach/VirtualMachine;
+0x001A0A88: loadAgent
+0x001A0C60: JVM attach and agent-loading calls in one method (review)
+0x001A1030: com/vora/agent/Boot
+0x001A1088: agentmain
+0x001A10A0: vora.agent.jar
+0x001A10B0: vora.agent.build
+0x001A10D0: declared Vora bootstrap class, both typed instrumentation entry points and its two agent-property keys
+0x001A1138: com/vora/agent/script/ScriptClassLoader
+0x001A11A0: declared Vora script class loader, direct ClassLoader superclass, typed findClass and reachable Map.get/defineClass calls
+0x001A1220: com/vora/agent/d
+0x001A1240: declared Vora dispatch class, typed agent entry points/handle and reachable bridge, script dispatch and cleanup calls in one method
+0x001A1480: Suspicious combat attack mixin injection
+0x001A1528: Detected reach/hitbox expander logic
+0x001A16F0: Java agent capability in manifest
+0x001A18C0: driplite
+0x001A18CC: drip_
+0x001A18F8: doomsday
+0x001A1908: velocityspoof
+0x001A1918: reachadjust
+0x001A1928: javainjector
+0x001A1938: pemapper
+0x001A1A00: spongepowered
+0x001A1A48: bytebuddy
+0x001A1A58: javassist
+0x001A1B40: org.spongepowered
+0x001A1B58: org/spongepowered
+0x001A1F20: Archive bytes exactly match the sample supplied as Doomsday (SHA-256
+0x001A1F68: Supplied Doomsday archive identified (SHA-256)
+0x001A1FB8: .mixins.json
+0x001A1FC8: mixin.json
+0x001A2540: . Native/JNI/agent capabilities alone do not establish a cheat; resources were not executed.
+0x001A26F0: references namespace me.foksha.whoami. Package naming alone does not establish cheat behavior.
+0x001A2800: MinecraftClientDoAttackFriendsMixin
+0x001A2828: MinecraftClientDoAttackMixin
+0x001A2848: injects attack hooks into MinecraftClient
+0x001A2888: agent-class
+0x001A28E8: ; capability declaration does not show that an agent was used.
+0x001A2A60: normal branch reachability and handlers covering reached instructions were considered; exception types and thrown paths remain conservative. Unused constant-pool references and bytes inside operands do not count. No receiver/data-flow, feasible branch predicate, method invocation, class loading or execution was established. Plugin loaders, instrumentation and mod frameworks can legitimately match.
+0x001A2C00: . Full class structure and typed declarations were parsed; code evidence uses instruction boundaries and reachable calls when applicable. Archive filename was not used. This identifies executor code in the inspected archive, not proof that an agent attached, a script ran or cheating occurred.
+0x001A2EB0: Detected mod ghost client: ReachAdjust / Combat backdoor
+0x001A2F40: declares namespace me/foksha/whoami. Package naming alone does not establish cheat behavior.
+0x001A2FC0: javainjector/
+0x001A32F8: aimAssistEnabled
+0x001A3328: reachDistance
+0x001A3338: reachAdjust
+0x001A3858: aaSmooth
+0x001A3D38: getReachDistance
+0x001A3D50: getExtendedReach
+0x001A3D70: contains entity bounding box expansion or reach distance modification.
+0x001A3EE8: JVM_DefineClass
+0x001A3EF8: JVM_DefineClassWithSource
+0x001A4000: contains attach API text/references. A reference alone does not establish an attach request, target PID, agent loading or successful injection.
+0x001A4938: vape
+0x001A4940: slinky
+0x001A4960: customreach
+0x001A4A40: Typed declarations and reachable calls were checked. Container filename and signature status were not used. This identifies current file content, not execution, agent attachment or injection into Minecraft.
+0x001A4BC0: Embedded executor inspection reached its archive/class/byte limits in
+0x001A4DB0: . Native libraries and JNI/agent capabilities alone do not establish injection or cheating.
+0x001A5050: Mod scope: startup Java-agent archives, instance mods directories, live JVM memory-mapped JARs, and open archive handles in the selected process. Already-closed and memory-only payloads may be unavailable; loader capabilities are review evidence, not confirmed cheats.
+0x001A57B8: reached; coverage incomplete
+0x001A5BE0: unavailable/limited; 32 MiB aggregate code and 128-review limits. Only direct typed invocation sites with normal branch reachability and exception edges from reached protected instructions are considered. Reflection, invokedynamic resolution, data flow and actual execution are not established.
+0x001A5EE0: New in the final Java module snapshot. Normal JNI/native libraries load this way too; not proof of injection.
+0x001A5FA0: ' was loaded in javaw.exe at scan start but was unloaded before the scan completed. Stealth injectors dynamically unload cheat DLLs to evade module snapshot enumeration.
+0x001A6290: ); presence alone does not establish Minecraft access or injection.
+0x001A6410: agent_load
+0x001A641C: jvmti
+0x001A6428: ) dynamically loading JVMTI agent: '
+0x001A6470: LOLBin JVMTI Injection: jcmd
+0x001A6A00: .attach_pid
+0x001A6A10: . A matching numeric PID in a basename does not establish this process lifetime, an accepted attach request, agent loading or an external writer
+0x001A6AB0: USN attach-request filename reference:
+0x001A6F40: reached/unavailable; coverage incomplete.
+0x001A7188: reached; coverage incomplete.
+0x001A7318: vape_loader
+0x001A7400: net/minecraft/
+0x001A7440: org/spongepowered/
+0x001A7660: pub/vape
+0x001A766C: vape/
+0x001A7678: pub.vape
+0x001A7684: drip/
+0x001A7690: dripclient
+0x001A76A0: com/drip
+0x001A76C0: modules/velocity
+0x001A76D8: velocitymodule
+0x001A76E8: cancelvelocity
+0x001A76F8: zerovelocity
+0x001A7708: grimvelocity
+0x001A7718: fastplacemodule
+0x001A78F0: . Injector converted DLL into raw bytes and wiped MZ/PE headers to evade signature checks.
+0x001A8238: com/vora/agent/
+0x001A82A0: . Class bytes do not prove that the JVM defined or executed this class, attached an agent, or ran a script.
+0x001A8488: Candidate/work limit reached; coverage incomplete.
+0x001A84C0: Maximum 64 candidates and 4 MiB parsing work; absence is not proof of no agent.
+0x001A85D0: Java class records without a specific cheat marker. Class bytes in private memory are normal JVM activity and are not counted as injected classes.
+0x001A8B20: . A request filename, pipe name or observer record does not identify the pipe owner/client, establish a successful attach, show an agent load, or attribute nearby class bytes to that request. Debuggers and diagnostics may use attach services
+0x001A8C40: Attach-request-style filename/observer record seen while PID
+0x001A8DC0: attach_history.log
+0x001A9320: velocity
+0x001A9848: module/movement/velocity
+0x001A9868: features/velocity
+0x001A9880: cheat/velocity
+0x001A9890: velocityhack
+0x001A98A0: reducevelocity
+0x001A98B0: modules/fastplace
+0x001A98C8: cheat/fastplace
+0x001A98D8: vape/client
+0x001A98E8: com/vape
+0x001A98F8: drip.lite
+0x001A9908: slinkyclient
+0x001A9980: aimassisthandler
+0x001A9A10: reachdistance
+0x001A9A20: reachmodule
+0x001A9A50: wtapmodule
+0x001A9B00: packetfly
+0x001A9BA0: timerboost
+0x001A9C78: anticclient
+0x001AA04C: /vape
+0x001AA054: /drip
+0x001AA060: /slinky
+0x001AA9B0: ). Minecraft is never spawned by system service hosts; indicates PROC_THREAD_ATTRIBUTE_PARENT_PROCESS spoofing to evade detection.
+0x001AAB90: ). External injector/debugger attached via DebugActiveProcess or NtDebugActiveProcess to redirect execution.
+0x001AAC00: Target process has an active kernel debug port attached (
+0x001AAC40: Active Remote Debugger Attached (ProcessDebugPort)
+0x001AAC78: Active debugger attached to game process space:
+0x001AACD0: CheckRemoteDebuggerPresent reports an external debugger is actively attached to the game process.
+0x001AAD38: Active Remote Debugger Attached (CheckRemoteDebuggerPresent)
+0x001AB0B0: Thread correlation reached its time/count limit or stopped early; coverage incomplete.
+0x001AB110: . Uses the existing bounded capture pass; no additional suspension. Never-allocated segment metadata is reviewed when available; non-255 map entries do not attest live CodeBlobs. Short-lived execution, protected code, unsupported JVMs and code in tracked/freed cache blocks remain gaps. Metadata is target-controlled and later than the sample.
+0x001AB340: . Endpoint presence does not establish an agent attachment
+0x001AB380: JVM attach endpoint exists:
+0x001AB3C8: JVM attach pipe is available:
+0x001AB5D8: contains suspicious non-JVM payload / shellcode artifacts.
+0x001ABD20: cs-injector
+0x001ABD40: correlated ElypPvP markers: client source path, localhost artifact_server, generated NotifyIcon PNG, or cs-injector/native injector source.
+0x001ABDF8: ElypPvP artifact server / injector chain
+0x001ABE50: . In-process RenderCore / Bloom cheat client active or lingering in JVM metaspace/heap.
+0x001ABEB0: Bloom client class metadata / mixin definitions detected in memory region at
+0x001AC310: Generic Clicker (JNativeHook)
+0x001AC360: Agent_OnAttach
+0x001AC370: sun.tools.attach
+0x001AC388: JVM_LookupDefineClass
+0x001AC3A0: . Capability names, agent entry-point text and class-definition API names do not establish an attached agent, executed hook or injection
+0x001AC430: JVM/JVMTI API text observed in memory at
+0x001AC460: Java_jnic_
+0x001AC46C: _jnic
+0x001AC498: JNIC native method obfuscator markers detected at
+0x001AC4D0: Jnic Obfuscator Functions
+0x001AC8E8: org/objectweb/asm
+0x001AC9A0: Hidden-class API text and attach-related IPC names observed for PID
+0x001ACA08: jvm_defineclass
+0x001ACA28: loadagent
+0x001ACAD0: JNI_GetCreatedJavaVMs
+0x001ACAE8: AttachCurrentThread
+0x001ACB18: JVM_DefineClassWithSourceCond
+0x001ACB38: JVM_FindClassFromCaller
+0x001ACB50: JVM_GetClassDeclaredMethods
+0x001ACB70: JVM_DoPrivileged
+0x001ACB88: VirtualMachine.attach
+0x001ACBE0: references JNI/JVM injection APIs. Native reflective loader attaching to JVM instance or injecting bytecode in-process.
+0x001ACC60: In-Memory JNI Injection (JNI_GetCreatedJavaVMs / AttachCurrentThread)
+0x001ACCB0: Native JNI attachment / JVM bytecode injection code running in unbacked executable memory:
+0x001ACE40: elypvpinjector
+0x001AD020: minecraft.net
+0x001AD6B8: speedfan.sys
+0x001AD750: . The referenced executable is currently missing; the history does not establish successful execution, deletion time, an injector or deliberate cleanup
+0x001ADC68: minecraft.exe
+0x001ADC78: minecraftlauncher.exe
+0x001AE258: drip
+0x001AE5F0: '. The file hash/version, vulnerability and use by Minecraft were not verified; a basename match is not a cheat finding.
+0x001AEA20: Active USB Serial COM board attached (
+0x001AEDD0: regasm.exe
+0x001AEFE0: Context only: Security event 4616 records a clock adjustment within the last 24 hours. Normal time synchronization and administrative changes can cause this; it does not establish a bypass or any link to Minecraft.
+0x001AF390: Active MSBuild project inspection reached the 16-process bound; remaining projects not inspected.
+0x001AF560: nativeinjector
+0x001AF570: . This process can build or stage the payload before it reaches javaw.
+0x001AF5B8: ) matches the ElypPvP artifact-server/injector chain:
+0x001AF608: ElypPvP artifact server / injector process
+0x001AF900: ) contains co-located loopback URL, transfer API, remote-memory API and Java target strings. These strings support review but do not prove execution or injection into the selected Minecraft process.
+0x001AFA20: memory review reached its 32 MB / 2 second budget; coverage is incomplete.
+0x001AFAB0: ) while Minecraft PID
+0x001AFB18: MSBuild-created injector artifact (review)
+0x001AFD90: Path under an ElypPvPClient tree matches a known injector/server artifact:
+0x001AFDE0: ElypPvP source/injector tree marker
+0x001B0A10: The file is currently unavailable; this does not establish deletion, self-destruction, or current Minecraft injection.
+0x001B10B0: ). Any DLL listed in AppInit_DLLs is forcibly injected into every process loading user32.dll including Minecraft.
+0x001B16B0: Windows Run dialog (Win + R) history records JDK jcmd dynamic JVMTI agent loading into Java process: '
+0x001B1718: Win+R RunMRU Forensics: LOLBin JVMTI Agent Injection (jcmd)
+0x001B2080: Live process-handle review reached its time limit; coverage incomplete.
+0x001B2620: . Its location alone does not distinguish a JNI library, capture hook, or cheat.
+0x001B2B2C: plasmo
+0x001B2B50: jnidispatch
+0x001B2BE0: plasmovoice
+0x001B2E10: jvm.dll
+0x001B2F10: attach.dll
+0x001B3000: management_agent.dll
+0x001B3458: Agent_OnLoad
+0x001B3728: JVM_FindClassFromClass
+0x001B37D0: ) to hook JVM internals. Injected dynamic Java instrumentation agent:
+0x001B3828: exports JVMTI attach entrypoints (
+0x001B3850: Injected JVMTI Agent (Agent_OnAttach)
+0x001B3878: JVMTI dynamic agent injected into javaw.exe:
+0x001B38B0: exports JNI_GetCreatedJavaVMs but is not jvm.dll. Imposter/proxy DLL hijacking JVM functions:
+0x001B3910: JNI Proxy / Imposter DLL (JNI_GetCreatedJavaVMs)
+0x001B3BF0: inside javaw.exe process space. Legitimate Minecraft runs on JVM; hosting the CLR indicates in-memory C# assembly execution (Assembly.Load).
+0x001B47D8: jni_getcreatedjavavms
+0x001B4D10: Small differences alone do not identify an injector; backing file
+0x001B4EE0: Image code comparison reached a limit or cancellation; coverage incomplete.
+0x001B4F30: . Injected cheat hooked Minecraft window procedure to capture mouse/keyboard inputs and render GUI. Location:
+0x001B5810: jvmti.agent_load
+0x001B5828: managementagent
+0x001B5838: LOLBin JVM Injection: jcmd dynamic JVMTI agent loading
+0x001B59B0: jdk.attach
+0x001B59BC: agent
+0x001B59C8: JVM Dynamic Attach API: Dynamic Java agent attachment detected
+0x001B6110: Fileless event check reached the 500-event limit for
+0x001B6430: ; five-second event budget reached
+0x001B6C90: Remote-thread correlation reached its event/time limit; coverage incomplete.
+0x001B71B0: Process-access coverage incomplete: reading failed, records were unreadable, or a collection limit/cancellation was reached.
+0x001B7330: Doomsday-related components (review)
+0x001B7480: An unusual executable startup configuration was observed. This finding alone does not establish that Minecraft was modified.
+0x001B7760: Review recent software updates and running tools. This finding alone does not prove access to Minecraft.
+0x001B7A20: javaagent
+0x001B7A30: java agent
+0x001B7A50: jvm argument
+0x001B7A90: A Java runtime or agent-related observation was recorded. Development tools, launchers and mods can legitimately use these features.
+0x001B8D70: -xx:+enabledynamicagentloading
+0x001B92B0: minecraft_accounts
+0x001B92C8: Minecraft name references
+0x001B9550: minecraft_memory
+0x001BC9C0: identifies the selected Java process GUID afterward, within two-minute bounds and with an exact pipe-name match (name omitted). A name can be reused across pipe instances; pipe object identity, protocol contents and agent loading are not established. No PID was inferred from a pipe suffix.
+0x001BCD40: Injection chain review reached an event/time/query limit or was cancelled; coverage is incomplete.
+0x001BCEB0: Mapping capture reached a limit or was cancelled; coverage incomplete.
+0x001BD270: . Executable and readable section extents matched committed pages in that allocation; execute-only code pages can qualify by protection metadata without reading their code bytes. A filename, section name or generic JVM code-cache heuristic was not used.
+0x001BD770: lies in private/mapped executable memory without a correlated PE layout in the bounded snapshot. JVM-generated/native runtime code is possible; this is not an injection verdict
+0x001BD868: net/minecraft_
+0x001BD9C8: ; SHA-256 unavailable/unstable or time limit reached
+0x001BDA18: Structured JVM startup review unavailable.
+0x001BDA48: . Agent options are omitted to avoid exposing secrets.
+0x001BDBF0: Selected Java startup has a class-loading, diagnostic or attach-policy option:
+0x001BDC40: agent options; at most 16 inspected. Relative file paths remain unresolved. Target environment overrides are not covered.
+0x001BDCC0: Structured JVM startup review:
+0x001BDCE0: JNI table review unavailable for this target architecture.
+0x001BDD20: JNI table review unavailable: valid x64 jvm.dll image not found.
+0x001BDE40: Heuristically identified stable JNI table
+0x001BDE70: JNI dispatch destination outside JVM code (review)
+0x001BDEB0: unreadable/unstable spans. Bounded to 32 MiB and two seconds; writable x64 JVM tables only, fast accessors excluded. Missing tables are incomplete coverage, not a clean verdict.
+0x001BDF88: JNI dispatch review:
+0x001BE180: . Repeated bytes and adjacent length agree, but class liveness, class-loader ownership and JNI field-handle identity are unverified. This cannot identify Doomsday or self-destruction
+0x001BE238: Experimental JVM symbol-shaped namespace at
+0x001BE270: writable private bytes (16 MiB/one second; first 64 KiB per region). This is not a loaded-class inventory or a JNI static-field-handle detector.
+0x001BE308: Experimental JVM metadata review sampled
+0x001BE5C0: . Historical product observation; not proof of current Minecraft injection.
+0x001BEED0: Callback-route review reached its 256-module/three-second limit or cancellation.
+0x001BF650: selected JVM module unavailable
+0x001C00A0: Native thread entry in declared unused JVM cache segment (review)
+0x001C00E8: Native thread entry outside declared JVM code cache (review)
+0x001C03A0: . 256-thread/one-second bound; no thread suspension. Target-controlled JVM metadata is not attested. Exited threads, tracked/freed code-cache blocks and unsupported JVMs remain gaps. Unused-segment schema
+0x001C0470: ; limit/cancellation reached
+0x001C1050: Typed declarations and reachable calls were checked. File size/time and process identity were reread. Names, unsigned status and embedded Java alone do not trigger this rule. This identifies current disk content, which may differ from launch-time or mapped bytes; it does not prove agent attachment, script execution, injection or access to selected Java PID
+0x001C1270: Embedded executor archive/class/byte limits reached for current process file
+0x001C18C0: . Bounds: 512 identities, 64 files, 32 MiB per file, 128 MiB input and three seconds; per-file resource/parser bounds also apply. Newest/oldest process identities alternate; browser paths only break creation-time ties and never establish trust or intent. Embedded ZIP review is bounded to eight archives, 512 resources, 256 classes and eight MiB decoded data per file; complete family classes are required. Only running image paths are covered; large files, already-exited hosts, dynamic/unsupported array construction, split resources, encryption, unsupported filesystems and unavailable identities remain gaps. This checks current disk resources and fixed CLR literal arrays, not in-memory code or a connection to Minecraft; raw command lines and browsing data are not read.
+0x001C1E80: This system-wide observation does not establish access to Minecraft PID
+0x001C2260: Private image pages only selected this candidate; normal relocations were normalized before comparison. This does not prove an injector, execution or Minecraft access.
+0x001C23F0: Current file size/time, process lifetime and mapped native path were rechecked. The host signature does not cover this DLL. Legitimate application-local replacements or instrumentation require review; no cheat, loader invocation, DLL search order or Minecraft access is proved.
+0x001C2630: . Bounds: seven seconds total, two-second discovery, 512 identities/128 alternating newest-oldest priority probes, 64 reviewed processes, 128 modules per process, eight new module signatures per process, 192 signature checks, 64 MiB per signature file. Observed loader/backing identity conflicts, entry redirections, private image-code candidates and application-local system-basename collisions receive priority; priority is not a finding. Signed-host main code is compared using supported relocation normalization and bounded repeated samples. Signed-DLL code comparison is limited to two candidates per process and 24 total; private executable image pages only prioritize repeated relocation-normalized comparisons. No executable-name or signed-host exemption. Protected/inaccessible/WOW64/exited processes, unavailable signatures, unlisted modules, large/writable/unsupported or unsampled code and activity between snapshots remain gaps. These system-wide findings do not establish a link to Minecraft.
+0x001C2EB0: independently reread code chunks have substantial stable differences from the current executable file after supported relocations were normalized. Exact image backing path and disk bytes were rechecked. Writable code and import slots were excluded. This can expose image-backed overwrite/stomping despite a valid disk signature; updates, instrumentation and other legitimate modifications still require review. It does not prove hollowing, a cheat or its writer.
+0x001C3C00: unavailable/relative/response/limited inputs. Four files/process, 2 MiB/file, 100 ms XML parsing. Both native and WOW64 command metadata use the kernel query. Renamed hosts, stopped processes, relative/response/imported projects, obfuscated/dynamic code and unavailable metadata remain gaps; no history absence is treated as clean.
+0x001C5538: Minecraft public-name references:
+0x001C5C00: 18-second scheduling limit reached; remaining collectors incomplete.
+0x001CC1D0: host unreachable
+0x001CC2B0: network unreachable
+0x001CD808: `anonymous namespace'
+0x0021ACC1: ]jx5%jVM
+0x00222622: AVASM#
+0x002D64E5: JVm8\
+0x003CCFF9: qASM
+0x00437593: jvMW
+0x004759EC: \ASM
+0x004A2B16: ASASM#
+0x004B046B: ASM#
+0x004F71AD: EASM
+0x00532A09: AZASMc
+0x00539F1F: ,ASM
+0x00614525: -xASASM
+0x0077B9AC: SetTimer
+0x007C85EA: KillTimer
+0x007CEAD4: 49jvM
+0x0080AC2B: JNIu
+0x008648A8: WinHttpReceiveResponse
+0x00B6F705: TM==OJVmaKp
+0x00B6F815: 9@OALZ7jJNi
+0x00BBD377: JVMI
+0x00BBD48B: fJVMI
+0x00BD6DCF: .filter[data-category="minecraft"] { margin-top:12px; }
+0x00BD93AE: const categories=[['all','All findings','grid'],['detect','Detections','shield'],['system','System integrity','system'],['bypass','Bypass indicators','bypass'],['warning','Warnings','warning'],['suspicious','Suspicious','eye'],['minecraft','Minecraft accounts','users'],['discord','Discord accounts','users'],['logs','Logs','logs']];
+0x00BD95EC: const icon=name=>{const s=document.createElementNS('http://www.w3.org/2000/svg','svg'),u=document.createElementNS(s.namespaceURI,'use');u.setAttribute('href','#'+(name==='search'?'icon-search':name));s.append(u);s.setAttribute('aria-hidden','true');return s};
+0x00BD97A3: const accountPages={minecraft:data.minecraft_accounts||[],discord:data.discord_accounts||[],logs:data.logs||[]};
+0x00BD9886: const nav=document.getElementById('filters');categories.forEach(([key,label,glyph])=>{const b=el('button','filter');b.type='button';b.dataset.category=key;b.title=label;b.setAttribute('aria-label',label);b.append(icon(glyph),el('span','',label),el('b','',totalFor(key)));b.onclick=()=>{selected=key;render()};nav.append(b)});
+0x00BD9C16: const explanations={all:'All recorded detection names. These are not a count of confirmed cheats.',detect:'Detection rules matched. A match alone does not confirm cheating.',system:'Observations about Windows settings or system state.',bypass:'Observations that may affect a scan. They do not establish an intentional bypass.',warning:'Warnings can come from legitimate software.',suspicious:'Unusual observations that need review; these are not confirmed cheats.',minecraft:'Public names found in game memory or launcher history. These are references, not verified account ownership or proof of cheating.',discord:'Public user references found in Discord caches. These may include contacts and old entries, not just signed-in accounts.',logs:'Activity and coverage recorded during this scan. Unavailable history is unknown, not proof of a bypass.'};
+0x00BD9F7E: nav.querySelectorAll('button').forEach(b=>{const active=b.dataset.category===selected;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active))});
+0x00BDA87B: filtered.forEach((r,index)=>{
+0x00BDB561: const sources={minecraft_memory:'Minecraft memory reference',lunar_cache:'Lunar launcher cache',discord_cache:'Discord memory cache'};
+0x011DCEB1: <meta name="description" content="Root Scanner for Minecraft Java." />
+0x011DDD42: <span class="island-copy island-found" id="island-found">Minecraft found (PID 00000)</span>
+0x011E14BD: // Reversing direction keeps the current position and velocity.
+0x011E14FE: const socialMotion = { value: 0, speed: 0, target: 0, frame: 0, time: 0, entrance: null,
+0x011E1558: items: socialItems.map(() => ({ value: 0, speed: 0 })) };
+0x011E1723: const auxiliary = (motion.speed + damping * frequency * displacement) / damped;
+0x011E17ED: motion.speed = decay * (-damping * frequency * wave + damped *
+0x011E196D: // A slight stretch follows speed, then naturally settles to the final size.
+0x011E19BD: socialSurface.style.transform = `scaleX(${1 - Math.min(.065, Math.max(-.018, socialMotion.speed * .018))})`;
+0x011E1BA1: socialSymbol.style.transform = `rotate(${-socialMotion.speed * 6}deg) scale(${1 - Math.min(.12, Math.abs(socialMotion.speed) * .035)})`;
+0x011E1CE8: socialItems.forEach((item, index) => {
+0x011E1F3D: // A full opening starts at zero speed: the white bloom gets visible
+0x011E200E: socialMotion.speed = 30 * t * t * (1 - t) ** 2 / .62;
+0x011E2135: socialMotion.items.forEach((item, index) => {
+0x011E2275: Math.abs(socialMotion.speed) < .004 && socialMotion.items.every(item =>
+0x011E22C2: Math.abs(item.value - socialMotion.target) < .001 && Math.abs(item.speed) < .006);
+0x011E235D: socialMotion.speed = 0;
+0x011E237A: socialMotion.items.forEach(item => { item.value = socialMotion.target; item.speed = 0; });
+0x011E25FD: Math.abs(socialMotion.speed) < .004 ? { started: null } : null;
+0x011E26FC: socialMotion.frame = socialMotion.time = socialMotion.speed = 0;
+0x011E2B8F: en: { scan: "scan", scanLabel: "Scan", searching: "Searching for javaw.exe", complete: "Scan complete", found: pid => `Minecraft found (PID ${pid})`, socials: "Socials", language: "Language: English", website: "Website" },
+0x011E2D01: ", found: pid => `Minecraft
+0x011E2DD3: koma javaw.exe", complete: "Patikra baigta", found: pid => `Minecraft rastas (PID ${pid})`, socials: "Socialiniai tinklai", language: "Kalba: Lietuvi
+0x011E3BF0: const spinSpeed = 360 / spinTime;
+0x011E3D41: // corresponding arc edge prevents the filled shape from folding over
+0x011E4EE0: let islandTimers = [];
+0x011E4F2C: const islandMotion = { width: 0, height: 0, widthSpeed: 0, heightSpeed: 0,
+0x011E5472: const springStep = (value, speed, target, dt) => {
+0x011E54DF: const auxiliary = speed + omega * distance;
+0x011E556F: (speed - omega * auxiliary * dt) * decay];
+0x011E575B: islandMotion.widthSpeed = islandMotion.heightSpeed = 0;
+0x011E5B97: [islandMotion.width, islandMotion.widthSpeed] = springStep(
+0x011E5BD6: islandMotion.width, islandMotion.widthSpeed, islandMotion.targetWidth, dt);
+0x011E5C27: [islandMotion.height, islandMotion.heightSpeed] = springStep(
+0x011E5C68: islandMotion.height, islandMotion.heightSpeed, islandMotion.targetHeight, dt);
+0x011E5D4E: Math.abs(islandMotion.widthSpeed) < .5 &&
+0x011E5D7F: Math.abs(islandMotion.heightSpeed) < .5) {
+0x011E6269: islandTimers.forEach(clearTimeout);
+0x011E6290: islandTimers = [];
+0x011E62CE: islandTimers.push(setTimeout(callback, delay));
+0x011E693A: digitSlots.forEach((slot, index) => {
+0x011E6ACB: roll.getAnimations().forEach(animation => animation.cancel());
+0x011E8046: const coastDistance = spinSpeed * coastTime / 2;
+0x011E82FE: // direction and reaches zero speed without an abrupt freeze.
+0x011E8343: const distance = spinSpeed * coastTime *
+0x011E8D7B: // Integrating a smooth speed ramp gives zero starting speed and
+0x011E8DC1: // reaches the steady turn without a speed jump.
+0x011E8DF7: const rampAngle = spinSpeed * rampTime *
+0x011E8E9D: : spinSpeed * (elapsed - rampTime / 2);
+0x011E8F03: : -spinSpeed * (elapsed - mergeTime);
+0x011EA358: languageMenu.items.forEach(item => item.setAttribute("aria-pressed", String(item.dataset.language === locale)));
+0x011EA48C: languageMenu.items.forEach((item, index) => {
+0x011EB6A5: document.querySelectorAll('[data-native-action]').forEach(link => {
+0x01231309: }F`flyc
+0x0125B2E9: <assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+0x0125B334: <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+0x0125D79A: WINHTTP.dllWinHttpReceiveResponse(9
+0x0125FE36: USER32.dllKillTimer
+0x0125FE53: USER32.dllSetTimer
+0x0019D5C0: -javaagent:
+0x0019D5D8: -agentpath:
+0x0019D5F0: -agentlib:
+0x0019D8D0: -XX:+DisableAttachMechanism
+0x0019D908: -XX:-DisableAttachMechanism
+0x0019D940: -XX:+EnableDynamicAgentLoading
+0x0019D980: -XX:-EnableDynamicAgentLoading
+0x0019D9C0: -Djdk.attach.allowAttachSelf=true
+0x0019DA10: -Djdk.attach.allowAttachSelf=false
+0x0019DA78: -agentlib:jdwp
+0x001A8E00: .attach_pid*
+0x001BDB90: -Djdk.attach.allowAttachSelf
+0x001C3510: timer
+0x0125B11C: Root Minecraft Screenshare Scanner
+
+=================== JVM_CLASS_ANALYSIS (161) ===================
+0x000749BB: /agent/cH+
+0x001950F0: GameRendererGhostHandMixin
+0x00196738: desirable-cc.mixins.json
+0x0019DB68: Java debugging agent requested (review)
+0x0019DC68: Java bytecode verification disabled in options (review)
+0x0019DDF0: contains -Xdebug without a recognized JDWP agent. This alone does not establish remote debugging.
+0x0019DE60: ). Last recognized selector within this source only; cross-source precedence and effective runtime state are unverified. Defaults vary by JVM. Permission or warning configuration does not prove an agent was loaded.
+0x0019DF70: , dynamic agents=
+0x0019E2E8: Oversized Java agent reference skipped.
+0x0019E380: Java startup-agent reference recovered from
+0x0019E930: Context only: selected process JAVA_OPTS contains agent-style references. This is a wrapper convention, not an automatically consumed JVM option variable; launcher use is unknown and these are not attributed as active startup agents. Values/options omitted.
+0x0019EB5C: mixin
+0x0019EC50: Mod Analyzer: analyzing active mods and decompiling bytecode for cheats...
+0x001A04E0: com/vora/agent/Bridge
+0x001A0518: com/vora/agent/c
+0x001A0590: com/vora/agent/TraceScrubber
+0x001A06E0: defineClass
+0x001A0828: java/lang/ClassLoader
+0x001A0968: redefineClasses
+0x001A0A88: loadAgent
+0x001A0B70: Bytecode acquisition/decoding and class definition in one method (review)
+0x001A0C10: Bytecode acquisition/decoding and instrumentation in one method (review)
+0x001A0C60: JVM attach and agent-loading calls in one method (review)
+0x001A1030: com/vora/agent/Boot
+0x001A1088: agentmain
+0x001A10A0: vora.agent.jar
+0x001A10B0: vora.agent.build
+0x001A10D0: declared Vora bootstrap class, both typed instrumentation entry points and its two agent-property keys
+0x001A1138: com/vora/agent/script/ScriptClassLoader
+0x001A1188: findClass
+0x001A11A0: declared Vora script class loader, direct ClassLoader superclass, typed findClass and reachable Map.get/defineClass calls
+0x001A1220: com/vora/agent/d
+0x001A1240: declared Vora dispatch class, typed agent entry points/handle and reachable bridge, script dispatch and cleanup calls in one method
+0x001A1480: Suspicious combat attack mixin injection
+0x001A16F0: Java agent capability in manifest
+0x001A1A58: javassist
+0x001A1FB8: .mixins.json
+0x001A1FC8: mixin.json
+0x001A2540: . Native/JNI/agent capabilities alone do not establish a cheat; resources were not executed.
+0x001A2800: MinecraftClientDoAttackFriendsMixin
+0x001A2828: MinecraftClientDoAttackMixin
+0x001A2888: agent-class
+0x001A28B0: can-retransform-classes
+0x001A28E8: ; capability declaration does not show that an agent was used.
+0x001A29D0: a typed linear literal-only StringBuilder/StringBuffer sequence at bytecode offset
+0x001A2C00: . Full class structure and typed declarations were parsed; code evidence uses instruction boundaries and reachable calls when applicable. Archive filename was not used. This identifies executor code in the inspected archive, not proof that an agent attached, a script ran or cheating occurred.
+0x001A34F8: java/net/URLClassLoader
+0x001A3EE8: JVM_DefineClass
+0x001A3EF8: JVM_DefineClassWithSource
+0x001A4000: contains attach API text/references. A reference alone does not establish an attach request, target PID, agent loading or successful injection.
+0x001A4A40: Typed declarations and reachable calls were checked. Container filename and signature status were not used. This identifies current file content, not execution, agent attachment or injection into Minecraft.
+0x001A4DB0: . Native libraries and JNI/agent capabilities alone do not establish injection or cheating.
+0x001A5050: Mod scope: startup Java-agent archives, instance mods directories, live JVM memory-mapped JARs, and open archive handles in the selected process. Already-closed and memory-only payloads may be unavailable; loader capabilities are review evidence, not confirmed cheats.
+0x001A5910: limited observations. Complete strict Base64 and native-file section validation required. Only literal-only typed StringBuilder/StringBuffer chains without internal branch/handler entries are reconstructed. Bounds: 16 MiB construction work, 16 MiB separate builder-only bytecode, 32 MiB encoded input, 256 parts/2 MiB per string, 32 strings/4 MiB per method. Native Base64 prefix selects candidates; UTF8 constant references are deduplicated before copying. Computed keys, fields/locals, arbitrary arrays, invokedynamic concatenation and encrypted payloads remain gaps. Static content does not establish invocation or injection.
+0x001A5DF0: skipped/unreadable items. Static bytecode decompilation; no mod code executed.
+0x001A6410: agent_load
+0x001A6428: ) dynamically loading JVMTI agent: '
+0x001A6A10: . A matching numeric PID in a basename does not establish this process lifetime, an accepted attach request, agent loading or an external writer
+0x001A8238: com/vora/agent/
+0x001A82A0: . Class bytes do not prove that the JVM defined or executed this class, attached an agent, or ran a script.
+0x001A84C0: Maximum 64 candidates and 4 MiB parsing work; absence is not proof of no agent.
+0x001A8B20: . A request filename, pipe name or observer record does not identify the pipe owner/client, establish a successful attach, show an agent load, or attribute nearby class bytes to that request. Debuggers and diagnostics may use attach services
+0x001AB340: . Endpoint presence does not establish an agent attachment
+0x001ABEB0: Bloom client class metadata / mixin definitions detected in memory region at
+0x001AC330: can_retransform_classes
+0x001AC360: Agent_OnAttach
+0x001AC388: JVM_LookupDefineClass
+0x001AC3A0: . Capability names, agent entry-point text and class-definition API names do not establish an attached agent, executed hook or injection
+0x001AC5B0: Invasive bytecode modifications / synthetic cheat methods detected in game player classes at
+0x001AC798: '. Dynamic bytecode injection without backing JAR file.
+0x001AC7F0: contains raw Java .class bytecode (0xCAFEBABE, Java
+0x001AC848: In-Memory Java Class Injection (Unbacked Bytecode)
+0x001AC880: Unbacked Java bytecode (.class) injected into memory:
+0x001AC900: java/lang/classloader
+0x001ACA08: jvm_defineclass
+0x001ACA28: loadagent
+0x001ACAA0: In-Memory Java Bytecode Mapper API text at
+0x001ACB18: JVM_DefineClassWithSourceCond
+0x001ACB38: JVM_FindClassFromCaller
+0x001ACBA0: RedefineClasses
+0x001ACBB0: RetransformClasses
+0x001ACBE0: references JNI/JVM injection APIs. Native reflective loader attaching to JVM instance or injecting bytecode in-process.
+0x001ACCB0: Native JNI attachment / JVM bytecode injection code running in unbacked executable memory:
+0x001ACD10: '). External executable spins up a local server to stream DLL / PNG / bytecode payloads into game memory.
+0x001B16B0: Windows Run dialog (Win + R) history records JDK jcmd dynamic JVMTI agent loading into Java process: '
+0x001B1718: Win+R RunMRU Forensics: LOLBin JVMTI Agent Injection (jcmd)
+0x001B3000: management_agent.dll
+0x001B3458: Agent_OnLoad
+0x001B3728: JVM_FindClassFromClass
+0x001B37D0: ) to hook JVM internals. Injected dynamic Java instrumentation agent:
+0x001B3850: Injected JVMTI Agent (Agent_OnAttach)
+0x001B3878: JVMTI dynamic agent injected into javaw.exe:
+0x001B5810: jvmti.agent_load
+0x001B5828: managementagent
+0x001B5838: LOLBin JVM Injection: jcmd dynamic JVMTI agent loading
+0x001B59BC: agent
+0x001B59C8: JVM Dynamic Attach API: Dynamic Java agent attachment detected
+0x001B5A20: defineclass
+0x001B5A40: Fileless Bytecode Decryption: In-memory dynamic class definition
+0x001B7A20: javaagent
+0x001B7A30: java agent
+0x001B7A90: A Java runtime or agent-related observation was recorded. Development tools, launchers and mods can legitimately use these features.
+0x001B8D70: -xx:+enabledynamicagentloading
+0x001BC9C0: identifies the selected Java process GUID afterward, within two-minute bounds and with an exact pipe-name match (name omitted). A name can be reused across pipe instances; pipe object identity, protocol contents and agent loading are not established. No PID was inferred from a pipe suffix.
+0x001BDA48: . Agent options are omitted to avoid exposing secrets.
+0x001BDC40: agent options; at most 16 inspected. Relative file paths remain unresolved. Target environment overrides are not covered.
+0x001C1050: Typed declarations and reachable calls were checked. File size/time and process identity were reread. Names, unsigned status and embedded Java alone do not trigger this rule. This identifies current disk content, which may differ from launch-time or mapped bytes; it does not prove agent attachment, script execution, injection or access to selected Java PID
+0x00BD7553: .finding-toggle > svg { width:16px; height:16px; color:#777; flex-shrink:0; transition:transform .22s ease; }
+0x00BD75C2: .finding-toggle[aria-expanded="true"] > svg { transform:rotate(90deg); }
+0x00BDB870: content.hidden=false;content.removeAttribute('inert');content.style.removeProperty('opacity');content.style.removeProperty('transform');
+0x00BDBF9B: mask.setTransform(dpr,0,0,dpr,0,0);mask.globalCompositeOperation='source-over';mask.globalAlpha=1;
+0x011DE9E2: transform: translate(-50%, -50%);
+0x011DF036: transform: translateX(-50%);
+0x011DF22E: transform: translate(-50%, calc(-50% + 22px));
+0x011DF260: transition: transform 440ms cubic-bezier(.22,.8,.2,1), opacity 240ms ease;
+0x011DF2AE: will-change: transform, opacity;
+0x011DF456: transform: translate(-50%, calc(-50% - 22px));
+0x011DF7FD: text-transform: lowercase;
+0x011DFAC6: transform: translate(-65%, calc(-50% + 10px)) scale(.78);
+0x011DFB03: transition: opacity 160ms ease, transform 240ms ease, visibility 0s 240ms;
+0x011DFB54: .results-button span { display: block; opacity: 0; transform: translateY(8px); transition: opacity 140ms ease, transform 200ms ease; }
+0x011DFCC1: transform: translate(-50%, -50%) scale(1);
+0x011DFCEF: transition: opacity 280ms ease 120ms, transform 680ms cubic-bezier(.16,1.3,.3,1) 120ms, visibility 0s;
+0x011DFD5C: .stage.has-results .results-button span { opacity: 1; transform: translateY(0); transition: opacity 260ms ease 280ms, transform 400ms cubic-bezier(.22,1,.36,1) 280ms; }
+0x011E0169: @keyframes results-dialog-in { from { opacity: 0; transform: translateY(14px) scale(.94); } to { opacity: 1; transform: none; } }
+0x011E0313: transform-origin: 50% 22px;
+0x011E0332: will-change: height, transform;
+0x011E086B: transform: translateY(-12px) scale(.72);
+0x011E08C6: .social-link svg { transition: transform 380ms cubic-bezier(.2,1.6,.3,1); }
+0x011E0913: .social-link:hover svg, .social-link:focus-visible svg { transform: translateY(-2px) scale(1.16) rotate(-7deg); }
+0x011E0986: .social-link:nth-child(2):hover svg { transform: translateY(-2px) scale(1.16) rotate(7deg); }
+0x011E0B36: .flag-track { display: flex; width: 72px; height: 18px; transition: transform 640ms cubic-bezier(.22,1,.36,1); will-change: transform; }
+0x011E19BD: socialSurface.style.transform = `scaleX(${1 - Math.min(.065, Math.max(-.018, socialMotion.speed * .018))})`;
+0x011E1BA1: socialSymbol.style.transform = `rotate(${-socialMotion.speed * 6}deg) scale(${1 - Math.min(.12, Math.abs(socialMotion.speed) * .035)})`;
+0x011E1D7C: item.style.transform = `translateY(${-24 * (1 - value)}px) scale(${.65 + .35 * value}) rotate(${(index % 2 ? 9 : -9) * (1 - value)}deg)`;
+0x011E5329: islandPath.setAttribute("transform", `translate(${(viewportWidth - width) / 2} 0)`);
+0x011E6C53: { transform: "translateY(0)" },
+0x011E6C7A: { transform: "translateY(-50%)" },
+0x011E73DB: letterSpin.setAttribute("transform", `rotate(${angle.toFixed(2)} ${center.x} ${center.y})`);
+0x011E75E0: oSpin.setAttribute("transform", `rotate(${innerAngle.toFixed(2)} ${center.x} ${center.y})`);
+0x011EA298: languageMenu.toggle.querySelector(".flag-track").style.transform = `translateX(${-24 * flagIndex}px)`;
+0x011EB05B: { opacity: 1, transform: 'translate(-50%, -50%)' },
+0x011EB098: { opacity: 0, transform: 'translate(-50%, calc(-50% - 18px))' },
+0x011EB1A5: { opacity: 0, transform: 'translate(-50%, calc(-50% + 18px))' },
+0x0019D5C0: -javaagent:
+0x0019D5D8: -agentpath:
+0x0019D5F0: -agentlib:
+0x0019D7D0: -XX:-BytecodeVerificationRemote
+0x0019D810: -XX:+BytecodeVerificationRemote
+0x0019D850: -XX:-BytecodeVerificationLocal
+0x0019D890: -XX:+BytecodeVerificationLocal
+0x0019D940: -XX:+EnableDynamicAgentLoading
+0x0019D980: -XX:-EnableDynamicAgentLoading
+0x0019DA78: -agentlib:jdwp
+
+=================== MEMORY_INJECTION_RULES (61) ===================
+0x00194D00: NtQueryInformationProcess
+0x0019EF20: Private executable memory matches 256 native-code bytes and 64 allocation-prefix bytes at the same relative offset observed during the controlled Doomsday injection test. Both byte sequences were reread twice and page identity/protection rechecked. This is native-code evidence, independent of client-name strings. The controlled test observed a new thread starting at this code address; this scan alone does not establish a current thread, external writer or general coverage of other versions. Shared loader code may occur in other software; review required.
+0x001A5FA0: ' was loaded in javaw.exe at scan start but was unloaded before the scan completed. Stealth injectors dynamically unload cheat DLLs to evade module snapshot enumeration.
+0x001A72C0: virtualallocex
+0x001A72D0: createremotethread
+0x001A72E8: writeprocessmemory
+0x001A7858: Executable memory at
+0x001A78F0: . Injector converted DLL into raw bytes and wiped MZ/PE headers to evade signature checks.
+0x001A7AE8: Unbacked executable memory at
+0x001A7BD0: Disguised DLL Injection: Executable memory payload disguised with PNG image header (.png)
+0x001A7D70: Disguised DLL Injection: Executable memory allocation with PNG image magic (.png)
+0x001A7FC0: ). Non-executable assets must not have executable memory permissions.
+0x001A88A8: VirtualAlloc
+0x001A8910: CreateRemoteThread
+0x001A8AB8: NtQuerySystemInformation
+0x001A8F18: virtualalloc
+0x001AA3F0: Context only: native export redirects to private/mapped executable memory. Selected-process export
+0x001AA9B0: ). Minecraft is never spawned by system service hosts; indicates PROC_THREAD_ATTRIBUTE_PARENT_PROCESS spoofing to evade detection.
+0x001AAEC0: NtQueryInformationThread
+0x001AB110: . Uses the existing bounded capture pass; no additional suspension. Never-allocated segment metadata is reviewed when available; non-255 map entries do not attest live CodeBlobs. Short-lived execution, protected code, unsupported JVMs and code in tracked/freed cache blocks remain gaps. Metadata is target-controlled and later than the sample.
+0x001AB3F0: KB) is marked with PAGE_GUARD attribute to evade memory scanners that skip guarded pages. Used by cheats to sleep stealthily between execution cycles.
+0x001AB6A8: Executable memory region at
+0x001AB718: is allocated at relative displacement (
+0x001AB780: contains 64-bit PEB walking shellcode sequence.
+0x001AB7D8: contains 32-bit PEB walking shellcode sequence.
+0x001AB810: contains direct syscall instruction sequence (mov r10, rcx; mov eax, SSN; ... syscall; ret). Fileless bypass technique to evade userland API hooks and EDR telemetry.
+0x001ABA10: Stack-String Obfuscation: Dynamically constructed cheat string in executable memory
+0x001ABFA0: (residual unloadBloom / requestSelfDestruct / _5 handler). Confirms cheat was executed and subsequently self-destructed/unloaded to evade detection.
+0x001AC630: '. Full string is never stored contiguously in memory to evade detection.
+0x001ACCB0: Native JNI attachment / JVM bytecode injection code running in unbacked executable memory:
+0x001AD300: contains network client code referencing loopback (127.0.0.1 / localhost) and in-memory execution primitives (VirtualAlloc / ReflectiveLoader / LoadLibrary). Localhost DLL/PNG stager payload detected.
+0x001B2140: NtQueryObject
+0x001B39B0: ' was loaded into javaw.exe and deleted from disk to evade forensic inspection:
+0x001B4460: ) jumping to deallocated memory at
+0x001B49E8: Encrypted / Packed Unbacked Executable Memory
+0x001BD770: lies in private/mapped executable memory without a correlated PE layout in the bounded snapshot. JVM-generated/native runtime code is possible; this is not an injection verdict
+0x001BE9F0: TLS callback routes to non-image executable memory (review)
+0x001BEAB0: Delay-load import routes to non-image executable memory (review)
+0x001BEC90: Control-flow guard pointer routes to non-image executable memory (review)
+0x001BF030: Main-image identity review unavailable: x64 PEB/process identity cannot be read.
+0x001BF180: The stable PEB main-image base
+0x001BF270: ' differs from the stable backing image at the PEB main-image base: '
+0x001BF410: and PEB base/mapping were rechecked. This supports review of main-image replacement/PEB manipulation; it does not identify a writer or prove a cheat. Custom loaders, legitimate instrumentation or rename/lifetime behavior may need investigation.
+0x001BFEA0: memory whose current HotSpot segment-map byte is the never-allocated sentinel (255)
+0x001C0310: memory currently marked never allocated by HotSpot's segment map
+0x0037FB9E: dpEb
+0x007AB65C: ReadProcessMemory
+0x00B69D15: /99iFGVaD
+0x00B69F98: o^GVaD
+0x00B6A977: GVaD
+0x00B6AF63: /:;mGGVaD
+0x00B6B45A: 09:jFGVaD
+0x00B6B576: 0:727B:jFGVaD
+0x00B6B680: _nygrGVaD
+0x0125E1BA: KERNEL32.dllReadProcessMemoryp2
+0x001D2DA0: spanish-el salvador
+
+=================== USN_FS_RULES (88) ===================
+0x0000F114: D$JH
+0x00043DB3: 4$Jc
+0x00142A16: D$jI
+0x0019ECD0: Checking USN journal...
+0x0019F4E0: USN Change Journal deleted or disabled (system tampering)
+0x0019F520: The NTFS USN Change Journal is disabled, in deletion progress, or was recently wiped.
+0x001A6AB0: USN attach-request filename reference:
+0x001A6BE0: Resolved Windows Prefetch journal
+0x001A6CD8: USN Journal:
+0x001A6D58: USN journal
+0x001A7058: USN local drive inventory unavailable (Windows error
+0x001A70A0: USN filesystem inventory unavailable for
+0x001A7238: USN coverage:
+0x001F9943: $j0\
+0x001FB3F5: "($j&<(
+0x0020FFAE: p$J`^
+0x002272E6: #H$j
+0x00255AC9: 4$jH
+0x00262AAE: $Ji\
+0x0028AC3A: .=$Jb
+0x00293144: RUSn0
+0x002AF22E: KUSNl?
+0x002CF546: 6f$jO
+0x002DDBD8: s$JR
+0x002EA718: )$j`
+0x002EABC7: |$$J
+0x00358BB3: \XO'mA$JM
+0x003786AE: yf$J
+0x0037DEDD: 6P$J:=
+0x0039B3E1: $Jcx%#
+0x0039E053: _/$j
+0x0039E1A8: P?$j
+0x003A44A6: f$Je!
+0x003BCAAD: y>$j
+0x004201DF: y$j@
+0x004377BC: $J"$d7
+0x005D2FB5: $J!T
+0x005DDD6F: ]$JHc
+0x005E678C: >$jH
+0x005F04CE: }2MFt
+0x00612060: $jH|
+0x00668FC7: $j!Hf
+0x00700441: $J1#
+0x0070C7E3: 6:s$jx
+0x007163BC: e\$j
+0x00718B49: t$jcDY
+0x0071AF82: :`$j@/M
+0x0077C070: u$j<S='e)Y
+0x0077F42F: `$jI
+0x0078DBC4: $j :
+0x0079D67A: a$jS
+0x007B10FF: $j'w
+0x007D905F: $]$j
+0x007F7E8A: g$j-
+0x00801E67: n24$J
+0x00808137: $Jd#
+0x0081E9B9: $jDBf
+0x00832970: *$J,
+0x00837C97: G$jA
+0x0083801E: s8f$J
+0x00840DFF: .$JYD
+0x008425AE: Y$JWM
+0x008426E9: 8_ou[8$j
+0x0084EB2B: $J*eQ
+0x008568D6: K$jf
+0x00874224: $Jv=]#
+0x0088ACAA: +6O$J-0
+0x0088CD7C: E($Jj
+0x00B5C3F2: %$j`
+0x00B8C50E: #$J<
+0x00BA34EF: GY,$J<
+0x00BA3546: H[,$J=
+0x00BA4410: $J{n
+0x00BCED7B: 32665$J}K$6
+0x01204526: |xf$JRC
+0x0121D11C: $jo|
+0x012477FC: $jyt
+0x0124AF7C: ~s$j
+
+=================== EVENT_LOG_RULES (55) ===================
+0x0019ED68: Checking Windows services...
+0x0019F578: ; service state alone is not evidence of tampering.
+0x0019F898: Windows service checks unavailable (access denied)
+0x0019F8D0: (Service Not Running)
+0x0019F8E8: (Service not installed)
+0x0019F908: (Service status unavailable)
+0x001A8B20: . A request filename, pipe name or observer record does not identify the pipe owner/client, establish a successful attach, show an agent load, or attribute nearby class bytes to that request. Debuggers and diagnostics may use attach services
+0x001AA970: services.exe
+0x001AA9B0: ). Minecraft is never spawned by system service hosts; indicates PROC_THREAD_ATTRIBUTE_PARENT_PROCESS spoofing to evade detection.
+0x001AEB98: SYSTEM\CurrentControlSet\Services\DPS
+0x001AEC10: System Resource Usage Monitor database (SRUDB.dat) is missing or deleted while DPS service is active.
+0x001AECA0: SYSTEM\CurrentControlSet\Services\bam\State\UserSettings
+0x001AEE80: SYSTEM\CurrentControlSet\Services\vhdmp
+0x001AEEB0: Virtual Disk driver service (vhdmp) has been disabled to prevent VHD artifact logging.
+0x001AEF08: Bypass Method (Service manipulation)
+0x001B81C0: service
+0x001B81C8: Windows service activity (review)
+0x001B81F0: Windows service activity needs review. Restarts, maintenance and software installation can produce legitimate changes.
+0x001B82F0: eventlog
+0x001B90A0: services
+0x001B90B0: Windows services
+0x001B90C8: Service state alone is not evidence of tampering.
+0x001B9100: services reviewed
+0x001C3E38: Microsoft-Windows-Eventlog
+0x001C3F48: \services\bam\
+0x001C4970: service manager unavailable.
+0x001C4A30: unavailable. Demand-start, disabled, shared-host and delayed-start services are normal configurations; process creation time is not a service restart record
+0x001C4B00: Service inventory:
+0x001C4DA8: Service Control Manager
+0x001C5010: monitored services. Only retained chronological SCM state pairs with recognized state text are counted; normal updates and maintenance can restart services
+0x001C50B0: Recorded service stop/start sequences since boot:
+0x006FE224: OpenServiceA
+0x007AD2AA: wevtapi.dll
+0x007CD408: CloseServiceHandle
+0x007E1AE2: GetServiceDisplayNameW
+0x008529A8: OpenServiceW
+0x00860D06: QueryServiceStatus
+0x00877D2A: QueryServiceStatusEx
+0x0125D46E: ADVAPI32.dllQueryServiceStatusExH0
+0x0125D498: ADVAPI32.dllOpenServiceWP0
+0x0125D4DE: ADVAPI32.dllCloseServiceHandle`0
+0x0125D52A: ADVAPI32.dllOpenServiceAp0
+0x0125D54C: ADVAPI32.dllQueryServiceStatusx0
+0x0125D720: ADVAPI32.dllGetServiceDisplayNameW
+0x0125D912: wevtapi.dllEvtOpenChannelConfig
+0x0125D93B: wevtapi.dllEvtRender
+0x0125D959: wevtapi.dllEvtClose
+0x0125D976: wevtapi.dllEvtNext
+0x0125D992: wevtapi.dllEvtGetChannelConfigProperty
+0x0125D9C2: wevtapi.dllEvtCreateRenderContext
+0x0125D9ED: wevtapi.dllEvtQuery@:
+0x001ADFA0: SYSTEM\CurrentControlSet\Services\bam\UserSettings
+0x001C4990: EventLog
+0x001C49B8: PcaSvc
+
+=================== REGISTRY_RULES (212) ===================
+0x0000004D: !This program cannot be run in DOS mode.
+0x00075277: g/RuntimH+
+0x000FE860: 8BAM
+0x0012F58C: runnu
+0x0019CC10: Runtime JAR handle discovery unavailable: target identity or duplicate-handle access unavailable.
+0x0019CC90: Runtime JAR handle snapshot unavailable or exceeded its 8 MB bound.
+0x0019CCD8: Runtime JAR handle snapshot had invalid dimensions.
+0x0019CD10: Runtime JAR handle discovery reached a limit; coverage incomplete.
+0x0019CE40: Runtime JAR inventory inspected
+0x0019D610: Raw options, addresses and application properties are omitted. Runtime acceptance, historical launch content and actual use are unverified; this does not establish injection or cheating.
+0x0019DB90: The last recognized application-class verification selector in this source requests disabling it. Diagnostic selectors may require unlocking and vary by JVM version. This is a declaration, not a runtime flag read.
+0x0019DCA0: declares local verification on and application-class verification off. HotSpot can force application verification back on in this combination; effective runtime state is unverified.
+0x0019DE60: ). Last recognized selector within this source only; cross-source precedence and effective runtime state are unverified. Defaults vary by JVM. Permission or warning configuration does not prove an agent was loaded.
+0x0019ED08: Checking runtime indicators...
+0x0019F600: Coverage limits: this scan samples a running process and existing logs. Activity between snapshots, existing-thread execution, and memory-only Java classes may not leave recoverable evidence. No findings does not certify the absence of injection.
+0x0019F8D0: (Service Not Running)
+0x0019FEC0: invalid/truncated zlib stream
+0x0019FF40: truncated PNG chunk
+0x001A00B8: truncated iTXt text fields
+0x001A0200: truncated switch header
+0x001A0258: truncated table-switch targets
+0x001A0308: truncated wide prefix
+0x001A0338: truncated instruction operands
+0x001A0440: truncated variable-length instruction
+0x001A08F8: java/lang/Runtime
+0x001A0DB8: Truncated class
+0x001A0DE8: Truncated attribute
+0x001A0E08: Truncated Code attribute
+0x001A0E88: Truncated Code subattribute
+0x001A1E90: ). This identifies the archive, not successful injection or execution in the selected game. Review archive provenance and runtime evidence.
+0x001A3ED8: LdrUnloadDll
+0x001A4330: unavailable/invalid names. Four-KiB name and eight-MiB name-table limits; truncated stat names were not substituted.
+0x001A4FF0: Earlier runtime archive inventory rejected: process identity unavailable or mismatched.
+0x001A53A0: incomplete/skipped observations. Separate referenced/ordinary pools each allow 128 images/one second/32 MiB decoded bytes; ordinary work is capped at 16 images per archive. Ordinary resources cannot consume reserved class-reference review work. Each input is at most 8 MiB, 1024 chunks and 100 ms. Supports IEND trailing bytes, same-type ancillary chunks, strict complete base64 text, compressed PNG text and inflated IDAT streams. Does not reconstruct arbitrary separate files, PNG filters/pixel-channel encodings, encryption or truncated/unsupported payloads. Findings describe static structure, not actual injection.
+0x001A62D8: running (PID
+0x001A6348: /injectrunning
+0x001A6360: ) running with injection parameters: '
+0x001A63F8: jcmd.exe running (PID
+0x001A64A8: pcalua.exe running (PID
+0x001A6540: regsvr32.exe running (PID
+0x001A6618: rundll32 present but command line unavailable.
+0x001A6650: matches a Java module snapshot. Path correlation does not prove rundll32 injected it.
+0x001A66A8: Absolute DLL path in rundll32 PID
+0x001A66D0: Rundll32 references a Java-loaded DLL
+0x001A67C8: rundll32 PID
+0x001A67D8: Rundll32 Alternate Data Stream Execution
+0x001A6838: Rundll32 Disguised Payload Execution
+0x001A6890: Rundll32 Protocol Handler Execution
+0x001A6EE0: No five-deletions-per-second exclusion is applied. Older/pruned history remains unavailable.
+0x001A70F0: Network, removable, unlettered mount points and older/pruned records are outside this inventory. History is context, not execution or injection proof.
+0x001A7A90: contains valid x64 exception unwind tables (.pdata / RUNTIME_FUNCTION array at offset
+0x001A7B10: common x64 function-entry byte patterns. JIT compilers, native callbacks and runtime stubs can generate these patterns; no PE image or DLL origin was established
+0x001AA1D0: . Entry bytes, indirect pointer when applicable, export resolution and destination mapping were reread. Names or plaintext cheat strings were not needed. Instrumentation, overlays and runtime trampolines may also produce this route; no external writer, prior patch, actual execution or cheating is established. Only the first transfer is decoded; subsequent routing and image-backed destinations are outside this rule. An uncorroborated route is not a cheat finding.
+0x001ACCB0: Native JNI attachment / JVM bytecode injection code running in unbacked executable memory:
+0x001AD858: Run-dialog history reference:
+0x001AE138: SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows
+0x001AECA0: SYSTEM\CurrentControlSet\Services\bam\State\UserSettings
+0x001AED30: Application execution logged in Windows BAM, but file has been subsequently deleted:
+0x001AEE58: Windows BAM records execution of
+0x001AF538: ) is running:
+0x001B0598: BAM records executable activity within two hours:
+0x001B0738: BAM records execution-related activity at
+0x001B0768: BAM unsigned executable recorded within two hours (review)
+0x001B0800: Recent BAM executable signature could not be established as valid or unsigned:
+0x001B0930: Windows BAM records a recent .NET Framework MSBuild.exe execution at
+0x001B0978: BAM .NET MSBuild execution (review)
+0x001B09D0: Windows BAM registry record confirms execution of binary '
+0x001B0A88: BAM named executable currently unavailable (review)
+0x001B0AC0: BAM named executable history (review)
+0x001B0B40: Windows BAM registry record confirms execution of temporary binary '
+0x001B0B88: BAM temporary executable currently unavailable (review)
+0x001B0BC0: unavailable/invalid/limited observations. At most 32 files, 64 MiB each, eight-second scheduling budget; local fixed drives and offline trust/catalog checks only. BAM is not a complete execution log and missing records do not establish absence of execution.
+0x001B0D00: Recent executable signature review: two-hour BAM window;
+0x001B0FD0: \bloom\runtime
+0x001B0FE0: (contains extracted loader UI and WebView2 native runtime components).
+0x001B1028: Bloom cheat loader embedded runtime cache directory detected:
+0x001B1068: Bloom Client Embedded Runtime
+0x001B1190: SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\
+0x001B12C0: Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU
+0x001B1368: rundll32
+0x001B13E0: scriptrunner
+0x001B14D0: Windows Run dialog history records a .NET Framework MSBuild.exe invocation with a configuration file: '
+0x001B1610: Windows Run dialog (Win + R) history records invocation of mavinject remote thread injection: '
+0x001B1670: Win+R RunMRU Forensics: LOLBin Remote Injection (mavinject)
+0x001B16B0: Windows Run dialog (Win + R) history records JDK jcmd dynamic JVMTI agent loading into Java process: '
+0x001B1718: Win+R RunMRU Forensics: LOLBin JVMTI Agent Injection (jcmd)
+0x001B1760: Windows Run dialog (Win + R) history records proxy script execution via signed VBScript: '
+0x001B17C0: Win+R RunMRU Forensics: LOLBin Script Proxy Execution
+0x001B1800: Windows Run dialog (Win + R) history records Program Compatibility Assistant execution proxy: '
+0x001B1860: Win+R RunMRU Forensics: LOLBin Compatibility Assistant Execution (pcalua)
+0x001B18C0: Windows Run dialog (Win + R) history records scriptlet or protocol handler proxy execution: '
+0x001B1920: Win+R RunMRU Forensics: LOLBin Scriptlet / Protocol Handler Execution
+0x001B1970: Windows Run dialog (Win + R) history records payload execution from NTFS Alternate Data Stream: '
+0x001B19D8: Win+R RunMRU Forensics: Alternate Data Stream (ADS) Execution
+0x001B1A30: Windows Run dialog (Win + R) history records certutil decoding an obfuscated/disguised payload from disk: '
+0x001B1AA0: Win+R RunMRU Forensics: Encoded Payload Decoding (certutil -decode)
+0x001B1B00: Windows Run dialog (Win + R) history records execution of base64-encoded PowerShell payload: '
+0x001B1B60: Win+R RunMRU Forensics: Encoded PowerShell Command Execution
+0x001B1BB0: Windows Run dialog (Win + R) history records WMI process proxy execution: '
+0x001B1C00: Win+R RunMRU Forensics: LOLBin WMI Process Creation Proxy
+0x001B1C90: Windows Run dialog (Win + R) history records execution of download stager command: '
+0x001B1CE8: Win+R RunMRU Forensics: Stager / Payload Download Command
+0x001B1D30: Windows Run dialog (Win + R) history records download utility executing network request: '
+0x001B1D90: Win+R RunMRU Forensics: Network Payload Download Command
+0x001B1DD0: Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4B-9170-DDC926C0B475}\Count
+0x001B1E60: Windows UserAssist records GUI / Run execution of cheat executable: '
+0x001B1EF8: UserAssist Forensics: Deleted Cheat Binary
+0x001B1F28: UserAssist Forensics: Cheat Binary Executed
+0x001B1F60: Windows UserAssist records execution of temporary stager executable from Temp/Downloads that was deleted from disk: '
+0x001B1FD8: UserAssist Forensics: Deleted Temporary Stager Executable
+0x001B3308: vcruntime140.dll
+0x001B3320: vcruntime140_1.dll
+0x001B3BF0: inside javaw.exe process space. Legitimate Minecraft runs on JVM; hosting the CLR indicates in-memory C# assembly execution (Assembly.Load).
+0x001B3C80: Microsoft .NET Common Language Runtime module '
+0x001B3D58: vcruntime140
+0x001B42C0: ordinary unloads retained as context only. Unloading alone is normal application behavior; truncated names are not joined to deletions.
+0x001B47F0: contains function-entry patterns or generic runtime strings. These do not establish a manual-mapped DLL, wiped headers, or executed cheat code
+0x001B4960: Runtime Code Decryptor / XOR Stub
+0x001B5568: injectrunning
+0x001B58E0: mshtml,runhtmlapplication
+0x001B5900: LOLBin Protocol/Scriptlet Execution: rundll32 proxy execution
+0x001B7260: Components associated with a Java executor were observed. Their presence does not establish that a script was run.
+0x001B7760: Review recent software updates and running tools. This finding alone does not prove access to Minecraft.
+0x001B7A40: java runtime
+0x001B7A60: Java runtime configuration (review)
+0x001B7A90: A Java runtime or agent-related observation was recorded. Development tools, launchers and mods can legitimately use these features.
+0x001B7DE0: Review expected overlays and running tools alongside the other scan findings.
+0x001B92F0: Names may come from the running game or launcher history; ownership is not verified.
+0x001BD770: lies in private/mapped executable memory without a correlated PE layout in the bounded snapshot. JVM-generated/native runtime code is possible; this is not an injection verdict
+0x001BE7B0: BAM file identities reviewed;
+0x001BFC20: No new thread-start address, PE header or plaintext cheat string is required. This is review evidence, not proof of an external writer, a hijack or a cheat. Custom runtimes may differ; target-controlled cache metadata is not attested.
+0x001C0210: Heap inventory, ranges, segment size and sentinel byte were reread. Concurrent allocation/deallocation or custom runtimes may produce similar observations.
+0x001C0FE8: Running executable contains Vora executor components (review)
+0x001C12C0: Running executable contains PNG native payload (review)
+0x001C1588: Running executable contains encoded native payload (review)
+0x001C1880: Running payload host review unavailable: process snapshot.
+0x001C18C0: . Bounds: 512 identities, 64 files, 32 MiB per file, 128 MiB input and three seconds; per-file resource/parser bounds also apply. Newest/oldest process identities alternate; browser paths only break creation-time ties and never establish trust or intent. Embedded ZIP review is bounded to eight archives, 512 resources, 256 classes and eight MiB decoded data per file; complete family classes are required. Only running image paths are covered; large files, already-exited hosts, dynamic/unsupported array construction, split resources, encryption, unsupported filesystems and unavailable identities remain gaps. This checks current disk resources and fixed CLR literal arrays, not in-memory code or a connection to Minecraft; raw command lines and browsing data are not read.
+0x001C1CB8: Running embedded payload host review:
+0x001C2AA0: Running DLL sideload/main-image review:
+0x001C2C10: and lies outside the file's declared image extent. It resolves to a different committed executable private/mapped allocation. Two matching header and destination-byte reads, destination mapping and current disk bytes were checked; machine, timestamp, checksum and image-size identity match. This identifies a stable header redirection, not execution through that entry, process hollowing, an external writer or a cheat. Runtime instrumentation and custom loaders may also require review.
+0x001C38D0: . These are parsed source capabilities, not compiled instruction analysis or proof the APIs ran. Conditions, dynamic imports and data flow are unresolved. File size/time and process lifetime/command metadata were reread. No BAM, SysMain, DiagTrack or CSRSS history was required. MSBuild's legitimate signature does not attest its project. No task was executed by Root; no link to selected Java PID
+0x001C3EB0: \registry\machine\software\microsoft\windows nt\currentversion\image file execution options\
+0x001C3F48: \services\bam\
+0x001C43E0: BAM retention inventory:
+0x001C4AE0: running,
+0x001C4E40: IFEO Debugger or BAM executable values since boot. This records deletion when registry auditing was enabled; it does not establish the purpose, delete an entire key, or prove a cheat bypass
+0x001C51A0: unavailable queries/reads; 24 hours, 2048 events and three seconds maximum. Localized unrecognized SCM states, disabled channels, unavailable Security access and pruned records are not absence evidence.
+0x001C5900: BAM user-key candidates in accessible stable live/RegBack hives. Free-cell remnants may be stale/reused and backup content is historical; they do not establish deletion time, actor, current configuration, or a bypass
+0x001C75D0: WebView2: Failed to find an installed WebView2 runtime or non-stable Microsoft Edge installation.
+0x001DD3C8: InstalledRuntime
+0x00204490: .?AVruntime_error@std@@
+0x00204800: .?AV<lambda_1>@?CC@??_CancelAndRunContinuations@?$_Task_impl@E@details@Concurrency@@UEAA_N_N00AEBV?$shared_ptr@U_ExceptionHolder@details@Concurrency@@@std@@@Z@
+0x002055F0: .?AU?$ImplementsHelper@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$$V@Details@WRL@Microsoft@@
+0x00205660: .?AV?$RuntimeClassBaseT@$01@Details@WRL@Microsoft@@
+0x002056A8: .?AVRuntimeClassBase@Details@WRL@Microsoft@@
+0x002056E8: .?AU?$RuntimeClassFlags@$03@WRL@Microsoft@@
+0x00206180: .?AV?$RuntimeClass@U?$RuntimeClassFlags@$01@WRL@Microsoft@@UICoreWebView2NavigationStartingEventHandler@@@WRL@Microsoft@@
+0x00206210: .?AV?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$00UICoreWebView2NavigationStartingEventHandler@@@Details@WRL@Microsoft@@
+0x002062B0: .?AU?$ImplementsHelper@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$0A@UICoreWebView2NavigationStartingEventHandler@@@Details@WRL@Microsoft@@
+0x002065E0: .?AV?$RuntimeClass@U?$RuntimeClassFlags@$01@WRL@Microsoft@@UICoreWebView2NewWindowRequestedEventHandler@@@WRL@Microsoft@@
+0x00206670: .?AV?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$00UICoreWebView2NewWindowRequestedEventHandler@@@Details@WRL@Microsoft@@
+0x00206710: .?AU?$ImplementsHelper@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$0A@UICoreWebView2NewWindowRequestedEventHandler@@@Details@WRL@Microsoft@@
+0x00206A40: .?AV?$RuntimeClass@U?$RuntimeClassFlags@$01@WRL@Microsoft@@UICoreWebView2PermissionRequestedEventHandler@@@WRL@Microsoft@@
+0x00206AD0: .?AV?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$00UICoreWebView2PermissionRequestedEventHandler@@@Details@WRL@Microsoft@@
+0x00206B80: .?AU?$ImplementsHelper@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$0A@UICoreWebView2PermissionRequestedEventHandler@@@Details@WRL@Microsoft@@
+0x00206EB0: .?AV?$RuntimeClass@U?$RuntimeClassFlags@$01@WRL@Microsoft@@UICoreWebView2WebMessageReceivedEventHandler@@@WRL@Microsoft@@
+0x00206F40: .?AV?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$00UICoreWebView2WebMessageReceivedEventHandler@@@Details@WRL@Microsoft@@
+0x00206FE0: .?AU?$ImplementsHelper@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$0A@UICoreWebView2WebMessageReceivedEventHandler@@@Details@WRL@Microsoft@@
+0x00207310: .?AV?$RuntimeClass@U?$RuntimeClassFlags@$01@WRL@Microsoft@@UICoreWebView2NavigationCompletedEventHandler@@@WRL@Microsoft@@
+0x002073A0: .?AV?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$00UICoreWebView2NavigationCompletedEventHandler@@@Details@WRL@Microsoft@@
+0x00207450: .?AU?$ImplementsHelper@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$0A@UICoreWebView2NavigationCompletedEventHandler@@@Details@WRL@Microsoft@@
+0x00207720: .?AV?$RuntimeClass@U?$RuntimeClassFlags@$01@WRL@Microsoft@@UICoreWebView2CreateCoreWebView2ControllerCompletedHandler@@@WRL@Microsoft@@
+0x002077C0: .?AV?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$00UICoreWebView2CreateCoreWebView2ControllerCompletedHandler@@@Details@WRL@Microsoft@@
+0x00207870: .?AU?$ImplementsHelper@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$0A@UICoreWebView2CreateCoreWebView2ControllerCompletedHandler@@@Details@WRL@Microsoft@@
+0x00207AF0: .?AV?$RuntimeClass@U?$RuntimeClassFlags@$01@WRL@Microsoft@@UICoreWebView2CreateCoreWebView2EnvironmentCompletedHandler@@@WRL@Microsoft@@
+0x00207B90: .?AV?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$00UICoreWebView2CreateCoreWebView2EnvironmentCompletedHandler@@@Details@WRL@Microsoft@@
+0x00207C40: .?AU?$ImplementsHelper@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$0A@UICoreWebView2CreateCoreWebView2EnvironmentCompletedHandler@@@Details@WRL@Microsoft@@
+0x002080A0: .?AV?$_Func_impl_no_alloc@V<lambda_1>@?CC@??_CancelAndRunContinuations@?$_Task_impl@E@details@Concurrency@@UEAA_N_N00AEBV?$shared_ptr@U_ExceptionHolder@details@Concurrency@@@std@@@Z@X$$V@std@@
+0x00244D58: runtime error
+0x00244DA7: An application has made an attempt to load the C runtime library incorrectly.
+0x002451B2: This application has requested the Runtime to terminate it in an unusual way.
+0x002452D8: Microsoft Visual C++ Runtime Library
+0x00245320: Runtime Error!
+0x00B57CA8: RUN*
+0x00BDC0C4: // The center of this original tree has an opaque 26px-wide trunk. Zoom far
+0x011DF876: .stage.is-running .start-button,
+0x011DF898: .stage.is-running .start-label {
+0x011E1A7A: // panel. The same curve runs backwards on close, without a color snap.
+0x011E76FC: stage.classList.remove("is-running");
+0x011E7F5A: stage.classList.add("is-running");
+0x00193B38: runtime environment
+0x00193BD0: ). Check Microsoft Edge WebView2 Runtime, then try again.
+0x0019D598: -Xrun
+0x0019D5B0: xrun
+0x0019DA98: -Xrunjdwp
+0x001A65F8: rundll32.exe
+0x001ADFA0: SYSTEM\CurrentControlSet\Services\bam\UserSettings
+0x001C4160: SOFTWARE\Microsoft\Windows NT\CurrentVersion
+0x001C5F80: Root needs Microsoft Edge WebView2 Runtime to open its menu. Install it now?
+0x001C60F0: WebView2 setup could not be completed or the runtime is still unavailable. Check your internet connection and Windows installation settings, then reopen Root. If setup is still running, allow it to finish first.
+0x001C7730: Microsoft.WebView2Runtime.Stable_8wekyb3d8bbwe
+0x001C7790: Microsoft.WebView2Runtime.Beta_8wekyb3d8bbwe
+0x001C77F0: Microsoft.WebView2Runtime.Dev_8wekyb3d8bbwe
+0x001C7850: Microsoft.WebView2Runtime.Canary_8wekyb3d8bbwe
+0x001C78B0: Microsoft.WebView2Runtime.Internal_8wekyb3d8bbwe
+0x001C8540: WebView2: shared cluster environment is not supported by the installed runtime (CreateSharedWebViewEnvironmentInternal missing).
+0x001D0610: api-ms-win-appmodel-runtime-l1-1-2
+
+=================== NETWORK_WEB_API (133) ===================
+0x00195018: /api/loader/artifact
+0x00195030: /api/loader/validate
+0x0019E690: Java argument-file quoting invalid or token limit reached; skipped.
+0x0019EAF0: Ordered Java launcher inspection incomplete; unreadable argument file or 4096-token limit.
+0x001A42D8: java/net/HttpURLConnection
+0x001A6574: http
+0x001A74D8: com/github/
+0x001A7D20: Fileless DLL Injection: In-memory .png image contains cheat payload tokens ('
+0x001A7EC8: referencing cheat token: '
+0x001A9E50: http://127.0.0.1:
+0x001A9E68: http://localhost:
+0x001A9EA0: https://127.0.0.1:
+0x001A9EB8: https://localhost:
+0x001AA070: /auth
+0x001AA088: /api/stage
+0x001AA0A8: http://
+0x001AA0B0: https://
+0x001AA1A8: api.keyauth.cc
+0x001AA1B8: api.eauth.us.to
+0x001AC288: com/github/kwhat/jnativehook
+0x001AC680: ') resolving to cheat token '
+0x001AC740: contains wide-string sparse/delimited character sequence resolving to cheat token '
+0x001AC7D0: ) with cheat payload token '
+0x001AD0F0: github.com
+0x001AD100: githubusercontent.com
+0x001AD118: discord.com
+0x001AD128: discordapp.com
+0x001AD298: WinHttpConnect
+0x001ADC40: winhttpreaddata
+0x001ADDA8: ') from unauthorized path:
+0x001AE350: keyauth.cc
+0x001AE360: keyauth.win
+0x001AE370: Direct connection endpoints or authentication tokens to keyauth.cc detected in process memory.
+0x001AE3D0: Keyauth Connection
+0x001AE3E8: eauth.us.to
+0x001AE3F8: eauth.cc
+0x001AE410: Direct connection endpoints or authentication tokens to eauth.us.to detected in process memory.
+0x001AE470: eAuth Connection
+0x001AE4A0: Direct connection endpoints, loader artifacts or authentication tokens to bloomclient.fun detected in process memory.
+0x001AE550: Direct connection endpoints, loader artifacts or authentication tokens to dragoniteclient.fun detected in process memory.
+0x001AFF00: . Includes embedded-base64 and downloaded variants; filenames, HTTP port and PNG assets are not required. Static source may contain unused/test code; execution and target attribution remain unverified
+0x001B00F0: XML text contains build-task/API/stager terms:
+0x001B05D0: . Current file has no embedded Authenticode signature and no locally registered SHA-256/SHA-1 catalog signature; size and last-write metadata stayed stable during inspection. This is historical execution and current-file evidence, not proof that identical bytes ran or that Java was injected. Unsigned developer tools are common.
+0x001B0E10: \Config (contains active DPAPI-encrypted Bloom loader session token).
+0x001B0F68: Bloom cheat client device authentication file detected:
+0x001B15D0: Referenced XML text contains build-task/API/stager terms:
+0x001B2B38: discord
+0x001B2C00: authlib
+0x001B2C30: discord-rpc
+0x001B2C40: discord_game_sdk
+0x001B2EE0: w2k_lsa_auth.dll
+0x001B3B68: Loaded module has no verified Authenticode signature:
+0x001B5088: discordhook
+0x001B5180: DownloadString and an expression-execution token in the same event
+0x001B51F8: Assembly.Load and FromBase64String tokens in the same event
+0x001B5270: Native allocation and unmanaged delegate invocation tokens in the same event
+0x001B5870: /i:http
+0x001B5878: /i:https
+0x001B7E80: Windows retained a record that an event log was cleared. Authorized administration and maintenance can also clear logs.
+0x001B8E08: Report template token missing
+0x001B9358: discord_accounts
+0x001B9370: Discord user references
+0x001B9578: discord_cache
+0x001BA350: upload_token
+0x001BA390: Root session requires a valid HTTPS server origin.
+0x001BA5D0: /api/scanner/sessions/
+0x001BA630: Authorization: Bearer
+0x001BA9B0: unknown token
+0x001C0A78: CLR local signature token
+0x001C0C50: CLR user-string token type
+0x001C4F40: provider-validated log-clear events were retained since boot within the 24-hour query. Windows recorded a clear, which may be authorized administration; the record does not establish cheating or motive.
+0x001C5470: Discord
+0x001C5560: distinct identifiers in bounded accessible Discord process memory. These may include contacts or old cache entries, not signed-in accounts. No credentials, tokens or messages are extracted or exported
+0x001C5630: Discord cached public-user references:
+0x002059E0: .?AV_CancellationTokenRegistration@details@Concurrency@@
+0x00205AE0: .?AV?$_CancellationTokenCallback@V<lambda_1>@?1??_RegisterCancellation@_Task_impl_base@details@Concurrency@@QEAAXV?$weak_ptr@U_Task_impl_base@details@Concurrency@@@std@@@Z@@details@Concurrency@@
+0x006F5E38: WinHttpQueryOption
+0x0070EC94: OpenProcessToken
+0x00790794: WinHttpQueryHeaders
+0x007D7D22: WinHttpCrackUrl
+0x007DAB4E: WinHttpOpenRequest
+0x007DF06E: WinHttpOpen
+0x007E9B14: GetTokenInformation
+0x007F37D8: GetSidSubAuthorityCount
+0x0080D530: GetSidSubAuthority
+0x00817656: WinHttpReadData
+0x0083F124: WinHttpSetTimeouts
+0x00846728: WinHttpCloseHandle
+0x0085AB0E: WinHttpSendRequest
+0x008648A8: WinHttpReceiveResponse
+0x0086D668: WinHttpSetOption
+0x008771DE: WINHTTP.dll
+0x00BD93AE: const categories=[['all','All findings','grid'],['detect','Detections','shield'],['system','System integrity','system'],['bypass','Bypass indicators','bypass'],['warning','Warnings','warning'],['suspicious','Suspicious','eye'],['minecraft','Minecraft accounts','users'],['discord','Discord accounts','users'],['logs','Logs','logs']];
+0x00BD95EC: const icon=name=>{const s=document.createElementNS('http://www.w3.org/2000/svg','svg'),u=document.createElementNS(s.namespaceURI,'use');u.setAttribute('href','#'+(name==='search'?'icon-search':name));s.append(u);s.setAttribute('aria-hidden','true');return s};
+0x00BD97A3: const accountPages={minecraft:data.minecraft_accounts||[],discord:data.discord_accounts||[],logs:data.logs||[]};
+0x00BD9C16: const explanations={all:'All recorded detection names. These are not a count of confirmed cheats.',detect:'Detection rules matched. A match alone does not confirm cheating.',system:'Observations about Windows settings or system state.',bypass:'Observations that may affect a scan. They do not establish an intentional bypass.',warning:'Warnings can come from legitimate software.',suspicious:'Unusual observations that need review; these are not confirmed cheats.',minecraft:'Public names found in game memory or launcher history. These are references, not verified account ownership or proof of cheating.',discord:'Public user references found in Discord caches. These may include contacts and old entries, not just signed-in accounts.',logs:'Activity and coverage recorded during this scan. Unavailable history is unknown, not proof of a bypass.'};
+0x00BDB561: const sources={minecraft_memory:'Minecraft memory reference',lunar_cache:'Lunar launcher cache',discord_cache:'Discord memory cache'};
+0x00BDB5EC: heading.append(el('h3','',r.name||(page==='discord'?'Username unavailable':'Unnamed reference')),el('span','reference-source',sources[r.source]||'Cached reference'));item.append(heading);
+0x00BDB6AC: if(page==='discord')item.append(el('p','reference-detail','User ID: '+r.id));
+0x011DCD53: <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; font-src data:; connect-src 'none'; base-uri 'none'; form-action 'none'" />
+0x011DD242: <a class="social-link" href="https://discord.gg/rootscanner" data-native-action="discord" target="_blank" rel="noopener noreferrer" aria-label="Discord" title="Discord">
+0x011DD46E: <a class="social-link" href="https://github.com/tosloi/Root" data-native-action="website" data-website target="_blank" rel="noopener noreferrer" aria-label="Website" title="Website">
+0x011E42E0: const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+0x0125D32E: ADVAPI32.dllGetSidSubAuthority
+0x0125D415: ADVAPI32.dllGetSidSubAuthorityCount80
+0x0125D6AF: ADVAPI32.dllOpenProcessToken
+0x0125D6D5: ADVAPI32.dllGetTokenInformation
+0x0125D74C: WINHTTP.dllWinHttpOpenRequest
+0x0125D773: WINHTTP.dllWinHttpSendRequest 9
+0x0125D79A: WINHTTP.dllWinHttpReceiveResponse(9
+0x0125D7C5: WINHTTP.dllWinHttpQueryHeaders09
+0x0125D7ED: WINHTTP.dllWinHttpReadData89
+0x0125D811: WINHTTP.dllWinHttpQueryOption@9
+0x0125D838: WINHTTP.dllWinHttpSetOptionH9
+0x0125D85D: WINHTTP.dllWinHttpConnectP9
+0x0125D880: WINHTTP.dllWinHttpCloseHandleX9
+0x0125D8A7: WINHTTP.dllWinHttpOpen`9
+0x0125D8C7: WINHTTP.dllWinHttpCrackUrlh9
+0x0125D8EB: WINHTTP.dllWinHttpSetTimeoutsx:
+0x00193E60: https://github.com/tosloi/Root
+0x00193EC0: https://discord.gg/rootscanner
+0x001C3220: http://schemas.microsoft.com/developer/msbuild/2003
+0x001C53B8: Discord.exe
+0x001C53D0: DiscordPTB.exe
+0x001C53F0: DiscordCanary.exe
+0x00B83107: Copyright 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins)PoppinsRegularITFO; Poppins Regular; 4.004b8Poppins Regular4.004Poppins-RegularIndian Type FoundryNinad Kale (Devanagari), Jonny Pinhorn (Latin)https://indiantypefoundry.comThis Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFLhttps://scripts.sil.org/OF
+0x00BA9299: rCopyright 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins)PoppinsBoldITFO; Poppins Bold; 4.004b8Poppins Bold4.004Poppins-BoldIndian Type FoundryNinad Kale (Devanagari), Jonny Pinhorn (Latin)https://indiantypefoundry.comThis Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFLhttps://scripts.sil.org/OF
+0x00BCF8DF: Copyright 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins)Poppins SemiBoldRegularITFO; Poppins SemiBold; 4.004b84.004Poppins-SemiBoldIndian Type FoundryNinad Kale (Devanagari), Jonny Pinhorn (Latin)https://indiantypefoundry.comThis Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFLhttps://scripts.sil.org/OFLPoppinsSemiBol
+
+=================== UI_CALLBACKS (188) ===================
+0x00147817: D$HROOT
+0x00193B60: WebView2
+0x00193B70: RootScanner
+0x00193FA0: window.rootSetStatus(
+0x00194110: Root integrity could not be verified. Close Root and download a fresh copy.
+0x0019F1E0: Access denied opening the Java process. Restart Root as administrator and refresh the process list.
+0x001A5640: . Full class entries are processed first, then exact root/package-relative CONSTANT_String resource candidates receive priority. References do not prove access or loading. Four-byte magic selects candidates; full bounded extraction/CRC checks precede analysis. Computed/encoded references, changed/deleted/encrypted/oversized resources and exhausted budgets remain gaps.
+0x001AB3F0: KB) is marked with PAGE_GUARD attribute to evade memory scanners that skip guarded pages. Used by cheats to sleep stealthily between execution cycles.
+0x001ADC90: root.exe
+0x001AFC24: root (
+0x001B0FE0: (contains extracted loader UI and WebView2 native runtime components).
+0x001BA308: Invalid Root session download.
+0x001BA368: Invalid Root session configuration.
+0x001BA390: Root session requires a valid HTTPS server origin.
+0x001BA3E0: This Root session expired. Download a new scanner from the session website.
+0x001BA440: scanner
+0x001BA448: Root
+0x001BA5D0: /api/scanner/sessions/
+0x001BDAB0: Library-name resolution is not inferred from the scanner's environment.
+0x001C08D0: CLR stream overlaps root header
+0x001C38D0: . These are parsed source capabilities, not compiled instruction analysis or proof the APIs ran. Conditions, dynamic imports and data flow are unresolved. File size/time and process lifetime/command metadata were reread. No BAM, SysMain, DiagTrack or CSRSS history was required. MSBuild's legitimate signature does not attest its project. No task was executed by Root; no link to selected Java PID
+0x001C4100: Recycle-bin directory inventory for the scanner's Windows user:
+0x001C41C0: InstallDate falls outside a plausible past range relative to the scanner's clock. Clock errors, upgrades, imaging and management tools must be reviewed; this is not proof of spoofing.
+0x001C42F0: before the scanner user's logon. Retention, Windows updates and permissions prevent an absence-based cleaning conclusion
+0x001C43B8: accessible current-control-set roots,
+0x001C74B0: WebView2: Failed to find the app exe path.
+0x001C74E0: WebView2: Failed to find the WebView2 client dll at:
+0x001C75D0: WebView2: Failed to find an installed WebView2 runtime or non-stable Microsoft Edge installation.
+0x001C7648: WebView2: skipped inaccessible
+0x001C7948: WebView2: skipped an incompatible version
+0x001C7B98: WebView2: DowngradeVersion policy resolved
+0x001C7FC0: EBWebView value not found
+0x001C7FE0: EBWebView is empty
+0x001C7FF8: EBWebView path is empty
+0x001C8010: Invalid EBWebView path format
+0x001C80A0: WebView2: DowngradeVersion policy applied (exact match), redirecting to
+0x001C8158: CreateWebViewEnvironmentWithOptionsInternal
+0x001C8510: CreateSharedWebViewEnvironmentInternal
+0x001C86F8: ROOT_INTEGRITY1
+0x001DD38F: CreateWebViewEnvironmentError
+0x001DD4A0: Microsoft.MSEdgeWebView.Loader
+0x00204A00: .?AV<lambda_1>@?1???$?0V?$_Fake_no_copy_callable_adapter@V<lambda_1>@?1??BeginScan@WebApp@gui@@AEAAXXZ@@std@@@?$_Task_async_state@V?$vector@UProcessInfo@scanner@@V?$allocator@UProcessInfo@scanner@@@std@@@std@@@std@@QEAA@$$QEAV?$_Fake_no_copy_callable_adapter@V<lambda_1>@?1??BeginScan@WebApp@gui@@AEAAXXZ@@2@@Z@
+0x00204C70: .?AV<lambda_1>@?1???$?0V?$_Fake_no_copy_callable_adapter@V<lambda_1>@?0??PollNativeWork@WebApp@gui@@AEAAXXZ@@std@@@?$_Task_async_state@V?$vector@UProcessInfo@scanner@@V?$allocator@UProcessInfo@scanner@@@std@@@std@@@std@@QEAA@$$QEAV?$_Fake_no_copy_callable_adapter@V<lambda_1>@?0??PollNativeWork@WebApp@gui@@AEAAXXZ@@2@@Z@
+0x002050D0: .?AV<lambda_4>@?1??InspectPePngResources@scanner@@YA?AUPePngResourceResult@2@V?$basic_string_view@DU?$char_traits@D@std@@@std@@AEBU?$atomic@_N@5@@Z@
+0x00205180: .?AV<lambda_1>@?8??HiveHistory@?A0x6ce162ed@scanner@@YAXAEAUContext@23@AEBVpath@filesystem@std@@@Z@
+0x00205200: .?AV<lambda_3>@?BA@??AccountsAndFat@?A0x6ce162ed@scanner@@YAXAEAUContext@23@PEAXAEBV?$set@_WU?$less@_W@std@@V?$allocator@_W@2@@std@@@Z@
+0x002052A0: .?AV<lambda_2>@?9??AccountsAndFat@?A0x6ce162ed@scanner@@YAXAEAUContext@23@PEAXAEBV?$set@_WU?$less@_W@std@@V?$allocator@_W@2@@std@@@Z@
+0x00205340: .?AV<lambda_1>@?0??AccountsAndFat@?A0x6ce162ed@scanner@@YAXAEAUContext@23@PEAXAEBV?$set@_WU?$less@_W@std@@V?$allocator@_W@2@@std@@@Z@
+0x00205770: .?AUICoreWebView2NavigationCompletedEventHandler@@
+0x002057C0: .?AUICoreWebView2NavigationStartingEventHandler@@
+0x00205810: .?AUICoreWebView2NewWindowRequestedEventHandler@@
+0x00205860: .?AUICoreWebView2PermissionRequestedEventHandler@@
+0x002058B0: .?AUICoreWebView2WebMessageReceivedEventHandler@@
+0x00205900: .?AUICoreWebView2CreateCoreWebView2ControllerCompletedHandler@@
+0x00205950: .?AUICoreWebView2CreateCoreWebView2EnvironmentCompletedHandler@@
+0x00205C60: .?AV?$_Associated_state@V?$vector@UProcessInfo@scanner@@V?$allocator@UProcessInfo@scanner@@@std@@@std@@@std@@
+0x00205FB0: .?AU?$DelegateInvokeHelper@UICoreWebView2NavigationStartingEventHandler@@V<lambda_1>@?1???R2?1???R2?1??CreateWebView@WebApp@gui@@AEAAXXZ@QEBAJJPEAUICoreWebView2Environment@@@Z@QEBAJJPEAUICoreWebView2Controller@@@Z@$00PEAUICoreWebView2@@PEAUICoreWebView2NavigationStartingEventArgs@@@?$DelegateArgTraits@P8ICoreWebView2NavigationStartingEventHandler@@EAAJPEAUICoreWebView2@@PEAUICoreWebView2NavigationStartingEventArgs@@@Z@Details@WRL@Microsoft@@
+0x00206180: .?AV?$RuntimeClass@U?$RuntimeClassFlags@$01@WRL@Microsoft@@UICoreWebView2NavigationStartingEventHandler@@@WRL@Microsoft@@
+0x00206210: .?AV?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$00UICoreWebView2NavigationStartingEventHandler@@@Details@WRL@Microsoft@@
+0x002062B0: .?AU?$ImplementsHelper@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$0A@UICoreWebView2NavigationStartingEventHandler@@@Details@WRL@Microsoft@@
+0x00206350: .?AV<lambda_1>@?1???R0?1???R0?1??CreateWebView@WebApp@gui@@AEAAXXZ@QEBAJJPEAUICoreWebView2Environment@@@Z@QEBAJJPEAUICoreWebView2Controller@@@Z@
+0x00206400: .?AU?$DelegateInvokeHelper@UICoreWebView2NewWindowRequestedEventHandler@@V<lambda_2>@?1???R<lambda_1>@?1???R3?1??CreateWebView@WebApp@gui@@AEAAXXZ@QEBAJJPEAUICoreWebView2Environment@@@Z@QEBAJJPEAUICoreWebView2Controller@@@Z@$00PEAUICoreWebView2@@PEAUICoreWebView2NewWindowRequestedEventArgs@@@?$DelegateArgTraits@P8ICoreWebView2NewWindowRequestedEventHandler@@EAAJPEAUICoreWebView2@@PEAUICoreWebView2NewWindowRequestedEventArgs@@@Z@Details@WRL@Microsoft@@
+0x002065E0: .?AV?$RuntimeClass@U?$RuntimeClassFlags@$01@WRL@Microsoft@@UICoreWebView2NewWindowRequestedEventHandler@@@WRL@Microsoft@@
+0x00206670: .?AV?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$00UICoreWebView2NewWindowRequestedEventHandler@@@Details@WRL@Microsoft@@
+0x00206710: .?AU?$ImplementsHelper@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$0A@UICoreWebView2NewWindowRequestedEventHandler@@@Details@WRL@Microsoft@@
+0x002067B0: .?AV<lambda_2>@?1???R<lambda_1>@?1???R1?1??CreateWebView@WebApp@gui@@AEAAXXZ@QEBAJJPEAUICoreWebView2Environment@@@Z@QEBAJJPEAUICoreWebView2Controller@@@Z@
+0x00206860: .?AU?$DelegateInvokeHelper@UICoreWebView2PermissionRequestedEventHandler@@V<lambda_3>@?1???R<lambda_1>@?1???R3?1??CreateWebView@WebApp@gui@@AEAAXXZ@QEBAJJPEAUICoreWebView2Environment@@@Z@QEBAJJPEAUICoreWebView2Controller@@@Z@$00PEAUICoreWebView2@@PEAUICoreWebView2PermissionRequestedEventArgs@@@?$DelegateArgTraits@P8ICoreWebView2PermissionRequestedEventHandler@@EAAJPEAUICoreWebView2@@PEAUICoreWebView2PermissionRequestedEventArgs@@@Z@Details@WRL@Microsoft@@
+0x00206A40: .?AV?$RuntimeClass@U?$RuntimeClassFlags@$01@WRL@Microsoft@@UICoreWebView2PermissionRequestedEventHandler@@@WRL@Microsoft@@
+0x00206AD0: .?AV?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$00UICoreWebView2PermissionRequestedEventHandler@@@Details@WRL@Microsoft@@
+0x00206B80: .?AU?$ImplementsHelper@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$0A@UICoreWebView2PermissionRequestedEventHandler@@@Details@WRL@Microsoft@@
+0x00206C20: .?AV<lambda_3>@?1???R<lambda_1>@?1???R1?1??CreateWebView@WebApp@gui@@AEAAXXZ@QEBAJJPEAUICoreWebView2Environment@@@Z@QEBAJJPEAUICoreWebView2Controller@@@Z@
+0x00206CD0: .?AU?$DelegateInvokeHelper@UICoreWebView2WebMessageReceivedEventHandler@@V<lambda_4>@?1???R<lambda_1>@?1???R3?1??CreateWebView@WebApp@gui@@AEAAXXZ@QEBAJJPEAUICoreWebView2Environment@@@Z@QEBAJJPEAUICoreWebView2Controller@@@Z@$00PEAUICoreWebView2@@PEAUICoreWebView2WebMessageReceivedEventArgs@@@?$DelegateArgTraits@P8ICoreWebView2WebMessageReceivedEventHandler@@EAAJPEAUICoreWebView2@@PEAUICoreWebView2WebMessageReceivedEventArgs@@@Z@Details@WRL@Microsoft@@
+0x00206EB0: .?AV?$RuntimeClass@U?$RuntimeClassFlags@$01@WRL@Microsoft@@UICoreWebView2WebMessageReceivedEventHandler@@@WRL@Microsoft@@
+0x00206F40: .?AV?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$00UICoreWebView2WebMessageReceivedEventHandler@@@Details@WRL@Microsoft@@
+0x00206FE0: .?AU?$ImplementsHelper@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$0A@UICoreWebView2WebMessageReceivedEventHandler@@@Details@WRL@Microsoft@@
+0x00207080: .?AV<lambda_4>@?1???R<lambda_1>@?1???R1?1??CreateWebView@WebApp@gui@@AEAAXXZ@QEBAJJPEAUICoreWebView2Environment@@@Z@QEBAJJPEAUICoreWebView2Controller@@@Z@
+0x00207130: .?AU?$DelegateInvokeHelper@UICoreWebView2NavigationCompletedEventHandler@@V<lambda_5>@?1???R<lambda_1>@?1???R3?1??CreateWebView@WebApp@gui@@AEAAXXZ@QEBAJJPEAUICoreWebView2Environment@@@Z@QEBAJJPEAUICoreWebView2Controller@@@Z@$00PEAUICoreWebView2@@PEAUICoreWebView2NavigationCompletedEventArgs@@@?$DelegateArgTraits@P8ICoreWebView2NavigationCompletedEventHandler@@EAAJPEAUICoreWebView2@@PEAUICoreWebView2NavigationCompletedEventArgs@@@Z@Details@WRL@Microsoft@@
+0x00207310: .?AV?$RuntimeClass@U?$RuntimeClassFlags@$01@WRL@Microsoft@@UICoreWebView2NavigationCompletedEventHandler@@@WRL@Microsoft@@
+0x002073A0: .?AV?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$00UICoreWebView2NavigationCompletedEventHandler@@@Details@WRL@Microsoft@@
+0x00207450: .?AU?$ImplementsHelper@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$0A@UICoreWebView2NavigationCompletedEventHandler@@@Details@WRL@Microsoft@@
+0x002074F0: .?AV<lambda_5>@?1???R<lambda_1>@?1???R1?1??CreateWebView@WebApp@gui@@AEAAXXZ@QEBAJJPEAUICoreWebView2Environment@@@Z@QEBAJJPEAUICoreWebView2Controller@@@Z@
+0x002075A0: .?AU?$DelegateInvokeHelper@UICoreWebView2CreateCoreWebView2ControllerCompletedHandler@@V<lambda_1>@?1???R2?1??CreateWebView@WebApp@gui@@AEAAXXZ@QEBAJJPEAUICoreWebView2Environment@@@Z@$00JPEAUICoreWebView2Controller@@@?$DelegateArgTraits@P8ICoreWebView2CreateCoreWebView2ControllerCompletedHandler@@EAAJJPEAUICoreWebView2Controller@@@Z@Details@WRL@Microsoft@@
+0x00207720: .?AV?$RuntimeClass@U?$RuntimeClassFlags@$01@WRL@Microsoft@@UICoreWebView2CreateCoreWebView2ControllerCompletedHandler@@@WRL@Microsoft@@
+0x002077C0: .?AV?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$00UICoreWebView2CreateCoreWebView2ControllerCompletedHandler@@@Details@WRL@Microsoft@@
+0x00207870: .?AU?$ImplementsHelper@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$0A@UICoreWebView2CreateCoreWebView2ControllerCompletedHandler@@@Details@WRL@Microsoft@@
+0x00207920: .?AV<lambda_1>@?1???R0?1??CreateWebView@WebApp@gui@@AEAAXXZ@QEBAJJPEAUICoreWebView2Environment@@@Z@
+0x002079A0: .?AU?$DelegateInvokeHelper@UICoreWebView2CreateCoreWebView2EnvironmentCompletedHandler@@V<lambda_1>@?1??CreateWebView@WebApp@gui@@AEAAXXZ@$00JPEAUICoreWebView2Environment@@@?$DelegateArgTraits@P8ICoreWebView2CreateCoreWebView2EnvironmentCompletedHandler@@EAAJJPEAUICoreWebView2Environment@@@Z@Details@WRL@Microsoft@@
+0x00207AF0: .?AV?$RuntimeClass@U?$RuntimeClassFlags@$01@WRL@Microsoft@@UICoreWebView2CreateCoreWebView2EnvironmentCompletedHandler@@@WRL@Microsoft@@
+0x00207B90: .?AV?$RuntimeClassImpl@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$00$0A@$00UICoreWebView2CreateCoreWebView2EnvironmentCompletedHandler@@@Details@WRL@Microsoft@@
+0x00207C40: .?AU?$ImplementsHelper@U?$RuntimeClassFlags@$01@WRL@Microsoft@@$0A@UICoreWebView2CreateCoreWebView2EnvironmentCompletedHandler@@@Details@WRL@Microsoft@@
+0x00207CF0: .?AV<lambda_1>@?1??CreateWebView@WebApp@gui@@AEAAXXZ@
+0x00207D40: .?AV?$_Deferred_async_state@V?$vector@UProcessInfo@scanner@@V?$allocator@UProcessInfo@scanner@@@std@@@std@@@std@@
+0x00207DD0: .?AV?$_Packaged_state@$$A6A?AV?$vector@UProcessInfo@scanner@@V?$allocator@UProcessInfo@scanner@@@std@@@std@@XZ@std@@
+0x00207E60: .?AV?$_Func_base@V?$vector@UProcessInfo@scanner@@V?$allocator@UProcessInfo@scanner@@@std@@@std@@$$V@std@@
+0x00207EE0: .?AV?$_Task_async_state@V?$vector@UProcessInfo@scanner@@V?$allocator@UProcessInfo@scanner@@@std@@@std@@@std@@
+0x002081E0: .?AV?$_Func_impl_no_alloc@V?$_Fake_no_copy_callable_adapter@V<lambda_1>@?1??BeginScan@WebApp@gui@@AEAAXXZ@@std@@V?$vector@UProcessInfo@scanner@@V?$allocator@UProcessInfo@scanner@@@std@@@2@$$V@std@@
+0x00208370: .?AV?$_Func_impl_no_alloc@V?$_Fake_no_copy_callable_adapter@V<lambda_1>@?0??PollNativeWork@WebApp@gui@@AEAAXXZ@@std@@V?$vector@UProcessInfo@scanner@@V?$allocator@UProcessInfo@scanner@@@std@@@2@$$V@std@@
+0x00208450: .?AU?$_InitialTaskHandle@XV<lambda_1>@?1???$?0V?$_Fake_no_copy_callable_adapter@V<lambda_1>@?1??BeginScan@WebApp@gui@@AEAAXXZ@@std@@@?$_Task_async_state@V?$vector@UProcessInfo@scanner@@V?$allocator@UProcessInfo@scanner@@@std@@@std@@@std@@QEAA@$$QEAV?$_Fake_no_copy_callable_adapter@V<lambda_1>@?1??BeginScan@WebApp@gui@@AEAAXXZ@@3@@Z@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@
+0x00208600: .?AU?$_PPLTaskHandle@EU?$_InitialTaskHandle@XV<lambda_1>@?1???$?0V?$_Fake_no_copy_callable_adapter@V<lambda_1>@?1??BeginScan@WebApp@gui@@AEAAXXZ@@std@@@?$_Task_async_state@V?$vector@UProcessInfo@scanner@@V?$allocator@UProcessInfo@scanner@@@std@@@std@@@std@@QEAA@$$QEAV?$_Fake_no_copy_callable_adapter@V<lambda_1>@?1??BeginScan@WebApp@gui@@AEAAXXZ@@3@@Z@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@U_TaskProcHandle@details@3@@details@Concurrency@@
+0x00208B30: .?AU?$_InitialTaskHandle@XV<lambda_1>@?1???$?0V?$_Fake_no_copy_callable_adapter@V<lambda_1>@?0??PollNativeWork@WebApp@gui@@AEAAXXZ@@std@@@?$_Task_async_state@V?$vector@UProcessInfo@scanner@@V?$allocator@UProcessInfo@scanner@@@std@@@std@@@std@@QEAA@$$QEAV?$_Fake_no_copy_callable_adapter@V<lambda_1>@?0??PollNativeWork@WebApp@gui@@AEAAXXZ@@3@@Z@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@
+0x00208CE0: .?AU?$_PPLTaskHandle@EU?$_InitialTaskHandle@XV<lambda_1>@?1???$?0V?$_Fake_no_copy_callable_adapter@V<lambda_1>@?0??PollNativeWork@WebApp@gui@@AEAAXXZ@@std@@@?$_Task_async_state@V?$vector@UProcessInfo@scanner@@V?$allocator@UProcessInfo@scanner@@@std@@@std@@@std@@QEAA@$$QEAV?$_Fake_no_copy_callable_adapter@V<lambda_1>@?0??PollNativeWork@WebApp@gui@@AEAAXXZ@@3@@Z@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@U_TaskProcHandle@details@3@@details@Concurrency@@
+0x00208ED0: .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$?0V?$_Fake_no_copy_callable_adapter@V<lambda_1>@?0??PollNativeWork@WebApp@gui@@AEAAXXZ@@std@@@?$_Task_async_state@V?$vector@UProcessInfo@scanner@@V?$allocator@UProcessInfo@scanner@@@std@@@std@@@std@@QEAA@$$QEAV?$_Fake_no_copy_callable_adapter@V<lambda_1>@?0??PollNativeWork@WebApp@gui@@AEAAXXZ@@3@@Z@X$$V@std@@
+0x00209190: .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$?0V?$_Fake_no_copy_callable_adapter@V<lambda_1>@?1??BeginScan@WebApp@gui@@AEAAXXZ@@std@@@?$_Task_async_state@V?$vector@UProcessInfo@scanner@@V?$allocator@UProcessInfo@scanner@@@std@@@std@@@std@@QEAA@$$QEAV?$_Fake_no_copy_callable_adapter@V<lambda_1>@?1??BeginScan@WebApp@gui@@AEAAXXZ@@3@@Z@X$$V@std@@
+0x00209AF0: .?AV_Root_node@std@@
+0x00209E40: .?AV?$_Func_impl_no_alloc@V<lambda_4>@?1??InspectPePngResources@scanner@@YA?AUPePngResourceResult@3@V?$basic_string_view@DU?$char_traits@D@std@@@std@@AEBU?$atomic@_N@6@@Z@X_KI@std@@
+0x0020A0B0: .?AV?$_Func_impl_no_alloc@V<lambda_1>@?0??AccountsAndFat@?A0x6ce162ed@scanner@@YAXAEAUContext@34@PEAXAEBV?$set@_WU?$less@_W@std@@V?$allocator@_W@2@@std@@@Z@XV?$basic_string_view@DU?$char_traits@D@std@@@7@@std@@
+0x0020A1A0: .?AV?$_Func_impl_no_alloc@V<lambda_2>@?9??AccountsAndFat@?A0x6ce162ed@scanner@@YAXAEAUContext@34@PEAXAEBV?$set@_WU?$less@_W@std@@V?$allocator@_W@2@@std@@@Z@XAEBV?$basic_json@Vmap@std@@Vvector@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N_J_KNVallocator@2@Uadl_serializer@json_abi_v3_11_3@nlohmann@@V?$vector@EV?$allocator@E@std@@@2@X@json_abi_v3_11_3@nlohmann@@H@std@@
+0x0020A340: .?AV?$_Func_impl_no_alloc@V<lambda_3>@?BA@??AccountsAndFat@?A0x6ce162ed@scanner@@YAXAEAUContext@34@PEAXAEBV?$set@_WU?$less@_W@std@@V?$allocator@_W@2@@std@@@Z@XV?$basic_string_view@DU?$char_traits@D@std@@@7@@std@@
+0x0020A430: .?AV?$_Func_impl_no_alloc@V<lambda_1>@?8??HiveHistory@?A0x6ce162ed@scanner@@YAXAEAUContext@34@AEBVpath@filesystem@std@@@Z@_N$$V@std@@
+0x00BD5E13: <title>Root | Scan report</title>
+0x00BD5E89: :root { color-scheme:dark; --text:#f5f5f5; --muted:#929292; --line:#252525; }
+0x00BD8C2D: <aside class="sidebar"><div class="brand"><strong>root</strong></div><p class="side-caption" id="sideCaption"></p><nav class="filters" id="filters" aria-label="Finding categories"></nav><footer class="sidebar-footer">Root Scanner<span>created by <strong>tosloi</strong></span></footer></aside>
+0x00BDAC76: description.rootAnimation?.cancel();description.hidden=false;apply(open);if(open)expanded.add(key);else expanded.delete(key);
+0x00BDADEA: description.rootAnimation=animation;description.style.overflow='hidden';
+0x00BDAE37: animation.finished.then(()=>{if(description.rootAnimation!==animation)return;description.hidden=!open;description.style.removeProperty('overflow');description.rootAnimation=undefined},()=>{});
+0x011DCEB1: <meta name="description" content="Root Scanner for Minecraft Java." />
+0x011DCEFD: <title>Root</title>
+0x011DCF16: <!-- Local-only source for the Root scanner animation. -->
+0x011DD242: <a class="social-link" href="https://discord.gg/rootscanner" data-native-action="discord" target="_blank" rel="noopener noreferrer" aria-label="Discord" title="Discord">
+0x011DD46E: <a class="social-link" href="https://github.com/tosloi/Root" data-native-action="website" data-website target="_blank" rel="noopener noreferrer" aria-label="Website" title="Website">
+0x011DDE12: <div class="wordmark" aria-label="root"><span id="r-visual" class="letter">r</span><span id="o-left" class="letter">o</span><span id="o-right" class="letter">o</span><span id="t-visual" class="letter">t</span><span id="baseline" class="baseline-marker" aria-hidden="true"></span></div>
+0x011DE628: :root {
+0x011E2F96: const nativeHost = window.chrome?.webview;
+0x011EA830: window.rootSetPid = pid => {
+0x011EA8BB: window.rootSetProgress = progress => {
+0x011EA93A: window.rootSetStatus = status => {
+0x011EB347: window.rootScanComplete = (pid, succeeded = true) => {
+0x011EB3C4: window.rootSetPid(pid);
+0x01260233: ROOT_VMP_IAT1
+0x00193190: Root integrity check
+0x001931C0: RootExactUiWindow
+0x00193580: ROOT_DESIGN_PREVIEW
+0x001935A8: Root session
+0x001935D0: This session download is invalid or expired. Please download a new copy from the Root website.
+0x001936A0: Root could not load its menu. Please download a new copy.
+0x00193730: Root needs Microsoft Edge WebView2 to open its menu.
+0x00193800: Install WebView2
+0x001938A0: ROOT_PREVIEW_AUTOSTART
+0x00193950: ROOT_PREVIEW_SOCIALS
+0x00193A10: ROOT_PREVIEW_LANGUAGES
+0x00193BD0: ). Check Microsoft Edge WebView2 Runtime, then try again.
+0x00193C60: Root could not open its menu during
+0x00193E60: https://github.com/tosloi/Root
+0x00193EC0: https://discord.gg/rootscanner
+0x00193F40: window.rootSetPid(
+0x00193F68: window.rootSetProgress(
+0x00193FE8: window.rootScanComplete(
+0x001BA0A0: rootscanner://location/
+0x001BA120: rootscanner:
+0x001BA160: Root Scanner
+0x001BA57E: .Root/1.0
+0x001BF008: \\?\GLOBALROOT
+0x001C5E18: Root dependency setup
+0x001C5EC8: RootWebViewSetup-
+0x001C5EF0: MicrosoftEdgeWebview2Setup.exe
+0x001C5F58: Root dependencies
+0x001C5F80: Root needs Microsoft Edge WebView2 Runtime to open its menu. Install it now?
+0x001C60F0: WebView2 setup could not be completed or the runtime is still unavailable. Check your internet connection and Windows installation settings, then reopen Root. If setup is still running, allow it to finish first.
+0x001C7160: EBWebView
+0x001C7180: EBWebView\x64\EmbeddedBrowserWebView.dll
+0x001C7730: Microsoft.WebView2Runtime.Stable_8wekyb3d8bbwe
+0x001C7790: Microsoft.WebView2Runtime.Beta_8wekyb3d8bbwe
+0x001C77F0: Microsoft.WebView2Runtime.Dev_8wekyb3d8bbwe
+0x001C7850: Microsoft.WebView2Runtime.Canary_8wekyb3d8bbwe
+0x001C78B0: Microsoft.WebView2Runtime.Internal_8wekyb3d8bbwe
+0x001C7B50: WEBVIEW2_BROWSER_EXECUTABLE_FOLDER
+0x001C7BE8: WEBVIEW2_USER_DATA_FOLDER
+0x001C7C40: WEBVIEW2_RELEASE_CHANNELS
+0x001C7CA0: WEBVIEW2_CHANNEL_SEARCH_KIND
+0x001C7D20: WEBVIEW2_RELEASE_CHANNEL_PREFERENCE
+0x001C7DB0: Software\Policies\Microsoft\Edge\WebView2\
+0x001C7E10: Software\Policies\Microsoft\Edge\WebView2\DowngradeVersion
+0x001C8108: WEBVIEW2_USE_EDGE_VIEW
+0x001C8190: WebView2: CoreWebView2Environment failed when trying to call into EmbeddedBrowserWebView.dll. hr=0x
+0x001C826E: wWebView2: CoreWebView2Environment failed when trying to LoadLibrary: hr=0x
+0x001C8322: WebView2: This error (0x8007007E) typically indicates missing binaries or an architecture mismatch. Please ensure the correct binaries (WebView2Loader.dll, EmbeddedBrowserWebView.dll, etc.) for the target architecture (x86/x64/ARM64) are deployed
+0x001C8540: WebView2: shared cluster environment is not supported by the installed runtime (CreateSharedWebViewEnvironmentInternal missing).
+0x001C8650: WebView2: shared CoreWebView2Environment failed when trying to LoadLibrary: hr=0x
+0x001C878E: :Root could not verify its executable integrity. The scan has been stopped and its results must not be trusted. Close Root and download a fresh copy from the official releases page. This is not a cheating verdict.
+0x0125B11C: Root Minecraft Screenshare Scanner
+0x0125B1E8: Root.exe
